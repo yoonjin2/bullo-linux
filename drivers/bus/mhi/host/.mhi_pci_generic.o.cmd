@@ -1,0 +1,1 @@
+savedcmd_drivers/bus/mhi/host/mhi_pci_generic.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/bus/mhi/host/mhi_pci_generic.o @drivers/bus/mhi/host/mhi_pci_generic.mod 

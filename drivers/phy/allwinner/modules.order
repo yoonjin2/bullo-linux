@@ -1,0 +1,3 @@
+drivers/phy/allwinner/phy-sun4i-usb.o
+drivers/phy/allwinner/phy-sun6i-mipi-dphy.o
+drivers/phy/allwinner/phy-sun50i-usb3.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/amlogic/phy-meson-axg-mipi-dphy.mod := printf '%s\n'   phy-meson-axg-mipi-dphy.o | awk '!x[$$0]++ { print("drivers/phy/amlogic/"$$0) }' > drivers/phy/amlogic/phy-meson-axg-mipi-dphy.mod

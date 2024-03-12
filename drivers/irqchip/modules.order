@@ -1,0 +1,3 @@
+drivers/irqchip/irq-qcom-mpm.o
+drivers/irqchip/irq-imx-mu-msi.o
+drivers/irqchip/irq-pruss-intc.o

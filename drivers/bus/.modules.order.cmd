@@ -1,0 +1,1 @@
+savedcmd_drivers/bus/modules.order := {   cat drivers/bus/fsl-mc/modules.order;   cat drivers/bus/mhi/modules.order;   echo drivers/bus/moxtet.o;   echo drivers/bus/sunxi-rsb.o;   echo drivers/bus/tegra-aconnect.o;   echo drivers/bus/tegra-gmi.o; :; } > drivers/bus/modules.order

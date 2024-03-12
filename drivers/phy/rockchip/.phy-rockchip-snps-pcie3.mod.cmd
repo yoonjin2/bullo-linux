@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/rockchip/phy-rockchip-snps-pcie3.mod := printf '%s\n'   phy-rockchip-snps-pcie3.o | awk '!x[$$0]++ { print("drivers/phy/rockchip/"$$0) }' > drivers/phy/rockchip/phy-rockchip-snps-pcie3.mod

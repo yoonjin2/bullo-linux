@@ -1,0 +1,6 @@
+drivers/bus/mhi/host/mhi.o
+drivers/bus/mhi/host/mhi_pci_generic.o
+drivers/bus/moxtet.o
+drivers/bus/sunxi-rsb.o
+drivers/bus/tegra-aconnect.o
+drivers/bus/tegra-gmi.o

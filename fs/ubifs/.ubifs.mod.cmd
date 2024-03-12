@@ -1,0 +1,1 @@
+savedcmd_fs/ubifs/ubifs.mod := printf '%s\n'   shrinker.o journal.o file.o dir.o super.o sb.o io.o tnc.o master.o scan.o replay.o log.o commit.o gc.o orphan.o budget.o find.o tnc_commit.o compress.o lpt.o lprops.o recovery.o ioctl.o lpt_commit.o tnc_misc.o debug.o misc.o sysfs.o crypto.o xattr.o auth.o | awk '!x[$$0]++ { print("fs/ubifs/"$$0) }' > fs/ubifs/ubifs.mod

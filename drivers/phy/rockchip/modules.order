@@ -1,0 +1,11 @@
+drivers/phy/rockchip/phy-rockchip-dp.o
+drivers/phy/rockchip/phy-rockchip-dphy-rx0.o
+drivers/phy/rockchip/phy-rockchip-emmc.o
+drivers/phy/rockchip/phy-rockchip-inno-csidphy.o
+drivers/phy/rockchip/phy-rockchip-inno-dsidphy.o
+drivers/phy/rockchip/phy-rockchip-inno-hdmi.o
+drivers/phy/rockchip/phy-rockchip-inno-usb2.o
+drivers/phy/rockchip/phy-rockchip-naneng-combphy.o
+drivers/phy/rockchip/phy-rockchip-snps-pcie3.o
+drivers/phy/rockchip/phy-rockchip-typec.o
+drivers/phy/rockchip/phy-rockchip-usb.o

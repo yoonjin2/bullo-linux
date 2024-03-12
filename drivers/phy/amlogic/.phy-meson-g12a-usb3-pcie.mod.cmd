@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/amlogic/phy-meson-g12a-usb3-pcie.mod := printf '%s\n'   phy-meson-g12a-usb3-pcie.o | awk '!x[$$0]++ { print("drivers/phy/amlogic/"$$0) }' > drivers/phy/amlogic/phy-meson-g12a-usb3-pcie.mod

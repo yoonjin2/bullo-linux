@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/hisilicon/modules.order := {   echo drivers/phy/hisilicon/phy-hi6220-usb.o;   echo drivers/phy/hisilicon/phy-hi3660-usb3.o;   echo drivers/phy/hisilicon/phy-hi3670-usb3.o;   echo drivers/phy/hisilicon/phy-histb-combphy.o;   echo drivers/phy/hisilicon/phy-hisi-inno-usb2.o; :; } > drivers/phy/hisilicon/modules.order

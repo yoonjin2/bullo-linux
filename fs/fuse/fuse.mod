@@ -7,3 +7,4 @@ fs/fuse/xattr.o
 fs/fuse/acl.o
 fs/fuse/readdir.o
 fs/fuse/ioctl.o
+fs/fuse/dax.o

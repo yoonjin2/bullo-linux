@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/allwinner/modules.order := {   echo drivers/phy/allwinner/phy-sun4i-usb.o;   echo drivers/phy/allwinner/phy-sun6i-mipi-dphy.o;   echo drivers/phy/allwinner/phy-sun50i-usb3.o; :; } > drivers/phy/allwinner/modules.order

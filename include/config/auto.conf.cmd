@@ -191,13 +191,11 @@ deps_config := \
 	drivers/phy/ti/Kconfig \
 	drivers/phy/tegra/Kconfig \
 	drivers/phy/sunplus/Kconfig \
-	drivers/phy/starfive/Kconfig \
 	drivers/phy/st/Kconfig \
 	drivers/phy/socionext/Kconfig \
 	drivers/phy/samsung/Kconfig \
 	drivers/phy/rockchip/Kconfig \
 	drivers/phy/renesas/Kconfig \
-	drivers/phy/realtek/Kconfig \
 	drivers/phy/ralink/Kconfig \
 	drivers/phy/qualcomm/Kconfig \
 	drivers/phy/mscc/Kconfig \
