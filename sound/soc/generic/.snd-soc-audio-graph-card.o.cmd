@@ -1,0 +1,1 @@
+savedcmd_sound/soc/generic/snd-soc-audio-graph-card.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/generic/snd-soc-audio-graph-card.o @sound/soc/generic/snd-soc-audio-graph-card.mod 

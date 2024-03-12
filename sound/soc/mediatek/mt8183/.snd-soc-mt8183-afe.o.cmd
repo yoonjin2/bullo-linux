@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.o @sound/soc/mediatek/mt8183/snd-soc-mt8183-afe.mod 

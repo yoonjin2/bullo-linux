@@ -1,0 +1,55 @@
+!<thin>
+//                                              476       `
+thermal_core.o/
+thermal_sysfs.o/
+thermal_trip.o/
+thermal_helpers.o/
+thermal_hwmon.o/
+thermal_of.o/
+gov_step_wise.o/
+gov_power_allocator.o/
+cpufreq_cooling.o/
+devfreq_cooling.o/
+broadcom/ns-thermal.o/
+broadcom/sr-thermal.o/
+sun8i_thermal.o/
+rcar_thermal.o/
+rcar_gen3_thermal.o/
+rzg2l_thermal.o/
+samsung/exynos_tmu.o/
+armada_thermal.o/
+qcom/tsens.o/
+qcom/tsens-v2.o/
+qcom/tsens-v1.o/
+qcom/tsens-v0_1.o/
+qcom/tsens-8960.o/
+hisi_thermal.o/
+uniphier_thermal.o/
+amlogic_thermal.o/
+
+/0              0           0     0     644     40272     `
+/16             0           0     0     644     18360     `
+/33             0           0     0     644     5504      `
+/49             0           0     0     644     6312      `
+/68             0           0     0     644     8704      `
+/85             0           0     0     644     17424     `
+/99             0           0     0     644     3464      `
+/116            0           0     0     644     6720      `
+/139            0           0     0     644     10304     `
+/158            0           0     0     644     10752     `
+/177            0           0     0     644     6352      `
+/200            0           0     0     644     6160      `
+/223            0           0     0     644     16952     `
+/240            0           0     0     644     13896     `
+/256            0           0     0     644     16800     `
+/277            0           0     0     644     8136      `
+/294            0           0     0     644     28616     `
+/316            0           0     0     644     18880     `
+/334            0           0     0     644     37928     `
+/348            0           0     0     644     8632      `
+/365            0           0     0     644     10520     `
+/382            0           0     0     644     13376     `
+/401            0           0     0     644     11944     `
+/420            0           0     0     644     12056     `
+/436            0           0     0     644     10808     `
+/456            0           0     0     644     9584      `

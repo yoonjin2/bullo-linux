@@ -1,0 +1,1 @@
+savedcmd_drivers/acpi/pfr_update.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/acpi/pfr_update.ko drivers/acpi/pfr_update.o drivers/acpi/pfr_update.mod.o;  true

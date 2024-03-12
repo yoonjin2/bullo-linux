@@ -1,0 +1,1 @@
+savedcmd_drivers/i2c/busses/modules.order := {   echo drivers/i2c/busses/i2c-bcm2835.o;   echo drivers/i2c/busses/i2c-cadence.o;   echo drivers/i2c/busses/i2c-gpio.o;   echo drivers/i2c/busses/i2c-qcom-cci.o;   echo drivers/i2c/busses/i2c-qcom-geni.o;   echo drivers/i2c/busses/i2c-rzv2m.o; :; } > drivers/i2c/busses/modules.order

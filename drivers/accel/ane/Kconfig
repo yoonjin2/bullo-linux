@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# Qualcomm Cloud AI accelerators driver
+#
+
+config DRM_ACCEL_ANE
+	tristate "Apple Neural Engine"
+	depends on DRM_ACCEL
+	help
+	  Enables driver for Apple Neural Engine that are
+	  designed to accelerate Deep Learning inference workloads.
+
+	  If unsure, say N.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called ANE.

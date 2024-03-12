@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/broadcom/bcm2835_thermal.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/thermal/broadcom/bcm2835_thermal.ko drivers/thermal/broadcom/bcm2835_thermal.o drivers/thermal/broadcom/bcm2835_thermal.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/marvell/built-in.a := rm -f drivers/phy/marvell/built-in.a;  printf "drivers/phy/marvell/%s " phy-mvebu-a3700-comphy.o phy-mvebu-a3700-utmi.o phy-mvebu-cp110-comphy.o | xargs ar cDPrST drivers/phy/marvell/built-in.a

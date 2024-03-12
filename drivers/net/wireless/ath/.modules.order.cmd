@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/modules.order := {   cat drivers/net/wireless/ath/ath10k/modules.order;   cat drivers/net/wireless/ath/wcn36xx/modules.order;   cat drivers/net/wireless/ath/ath11k/modules.order;   echo drivers/net/wireless/ath/ath.o; :; } > drivers/net/wireless/ath/modules.order

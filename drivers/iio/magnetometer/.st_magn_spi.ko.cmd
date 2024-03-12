@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/magnetometer/st_magn_spi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/magnetometer/st_magn_spi.ko drivers/iio/magnetometer/st_magn_spi.o drivers/iio/magnetometer/st_magn_spi.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/cdns3/cdns3-pci-wrap.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/cdns3/cdns3-pci-wrap.ko drivers/usb/cdns3/cdns3-pci-wrap.o drivers/usb/cdns3/cdns3-pci-wrap.mod.o;  true

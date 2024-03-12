@@ -1,0 +1,1 @@
+savedcmd_sound/soc/amd/acp_audio_dma.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/amd/acp_audio_dma.ko sound/soc/amd/acp_audio_dma.o sound/soc/amd/acp_audio_dma.mod.o;  true

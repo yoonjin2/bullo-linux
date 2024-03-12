@@ -1,0 +1,3 @@
+drivers/regulator/mt6315-regulator.o
+drivers/regulator/tps65132-regulator.o
+drivers/regulator/vctrl-regulator.o

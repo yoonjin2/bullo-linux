@@ -1,0 +1,1 @@
+savedcmd_drivers/power/supply/bq25980_charger.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/bq25980_charger.ko drivers/power/supply/bq25980_charger.o drivers/power/supply/bq25980_charger.mod.o;  true

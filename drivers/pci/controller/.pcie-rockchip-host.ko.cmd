@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/controller/pcie-rockchip-host.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/pci/controller/pcie-rockchip-host.ko drivers/pci/controller/pcie-rockchip-host.o drivers/pci/controller/pcie-rockchip-host.mod.o;  true

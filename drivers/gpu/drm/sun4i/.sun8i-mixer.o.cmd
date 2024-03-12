@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/sun4i/sun8i-mixer.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/sun4i/sun8i-mixer.o @drivers/gpu/drm/sun4i/sun8i-mixer.mod 

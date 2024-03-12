@@ -1,0 +1,1 @@
+savedcmd_drivers/slimbus/slim-qcom-ngd-ctrl.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/slimbus/slim-qcom-ngd-ctrl.ko drivers/slimbus/slim-qcom-ngd-ctrl.o drivers/slimbus/slim-qcom-ngd-ctrl.mod.o;  true

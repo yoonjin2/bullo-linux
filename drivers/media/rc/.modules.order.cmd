@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/modules.order := {   cat drivers/media/rc/keymaps/modules.order;   echo drivers/media/rc/rc-core.o;   echo drivers/media/rc/meson-ir.o;   echo drivers/media/rc/sunxi-cir.o; :; } > drivers/media/rc/modules.order

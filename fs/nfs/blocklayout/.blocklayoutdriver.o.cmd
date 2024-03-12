@@ -1,0 +1,1 @@
+savedcmd_fs/nfs/blocklayout/blocklayoutdriver.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o fs/nfs/blocklayout/blocklayoutdriver.o @fs/nfs/blocklayout/blocklayoutdriver.mod 

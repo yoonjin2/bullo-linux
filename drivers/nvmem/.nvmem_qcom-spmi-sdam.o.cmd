@@ -1,0 +1,1 @@
+savedcmd_drivers/nvmem/nvmem_qcom-spmi-sdam.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/nvmem/nvmem_qcom-spmi-sdam.o @drivers/nvmem/nvmem_qcom-spmi-sdam.mod 

@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/crypto/sha512-ce.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o arch/arm64/crypto/sha512-ce.ko arch/arm64/crypto/sha512-ce.o arch/arm64/crypto/sha512-ce.mod.o;  true

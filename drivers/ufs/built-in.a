@@ -1,0 +1,17 @@
+!<thin>
+//                                              128       `
+core/ufshcd.o/
+core/ufs-sysfs.o/
+core/ufs-mcq.o/
+core/ufs-debugfs.o/
+host/ufs-exynos.o/
+host/ufshcd-pltfrm.o/
+host/ufs-hisi.o/
+
+/0              0           0     0     644     195976    `
+/15             0           0     0     644     131712    `
+/33             0           0     0     644     11528     `
+/49             0           0     0     644     12416     `
+/69             0           0     0     644     36536     `
+/88             0           0     0     644     12120     `
+/110            0           0     0     644     19976     `

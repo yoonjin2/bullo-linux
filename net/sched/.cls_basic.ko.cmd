@@ -1,0 +1,1 @@
+savedcmd_net/sched/cls_basic.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/sched/cls_basic.ko net/sched/cls_basic.o net/sched/cls_basic.mod.o;  true

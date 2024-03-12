@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-altr-socfpga.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/ethernet/stmicro/stmmac/dwmac-altr-socfpga.o @drivers/net/ethernet/stmicro/stmmac/dwmac-altr-socfpga.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/ti/built-in.a := rm -f drivers/net/ethernet/ti/built-in.a;  printf "drivers/net/ethernet/ti/%s " davinci_mdio.o am65-cpsw-nuss.o cpsw_sl.o am65-cpsw-ethtool.o cpsw_ale.o k3-cppi-desc-pool.o am65-cpsw-qos.o | xargs ar cDPrST drivers/net/ethernet/ti/built-in.a

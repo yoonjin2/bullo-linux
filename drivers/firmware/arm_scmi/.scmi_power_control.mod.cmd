@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/arm_scmi/scmi_power_control.mod := printf '%s\n'   scmi_power_control.o | awk '!x[$$0]++ { print("drivers/firmware/arm_scmi/"$$0) }' > drivers/firmware/arm_scmi/scmi_power_control.mod

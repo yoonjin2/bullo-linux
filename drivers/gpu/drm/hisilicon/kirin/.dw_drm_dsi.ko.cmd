@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/hisilicon/kirin/dw_drm_dsi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/hisilicon/kirin/dw_drm_dsi.ko drivers/gpu/drm/hisilicon/kirin/dw_drm_dsi.o drivers/gpu/drm/hisilicon/kirin/dw_drm_dsi.mod.o;  true

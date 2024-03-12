@@ -1,0 +1,1 @@
+savedcmd_drivers/input/keyboard/imx_sc_key.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/imx_sc_key.ko drivers/input/keyboard/imx_sc_key.o drivers/input/keyboard/imx_sc_key.mod.o;  true

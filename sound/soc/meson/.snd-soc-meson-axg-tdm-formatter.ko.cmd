@@ -1,0 +1,1 @@
+savedcmd_sound/soc/meson/snd-soc-meson-axg-tdm-formatter.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/meson/snd-soc-meson-axg-tdm-formatter.ko sound/soc/meson/snd-soc-meson-axg-tdm-formatter.o sound/soc/meson/snd-soc-meson-axg-tdm-formatter.mod.o;  true

@@ -1,0 +1,5 @@
+net/dsa/dsa_core.o
+net/dsa/tag_brcm.o
+net/dsa/tag_none.o
+net/dsa/tag_ocelot.o
+net/dsa/tag_ocelot_8021q.o

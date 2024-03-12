@@ -1,0 +1,1 @@
+savedcmd_sound/soc/meson/snd-soc-meson-g12a-toacodec.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/meson/snd-soc-meson-g12a-toacodec.o @sound/soc/meson/snd-soc-meson-g12a-toacodec.mod 

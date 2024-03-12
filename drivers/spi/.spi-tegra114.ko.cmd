@@ -1,0 +1,1 @@
+savedcmd_drivers/spi/spi-tegra114.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-tegra114.ko drivers/spi/spi-tegra114.o drivers/spi/spi-tegra114.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-dib0700-nec.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-dib0700-nec.ko drivers/media/rc/keymaps/rc-dib0700-nec.o drivers/media/rc/keymaps/rc-dib0700-nec.mod.o;  true

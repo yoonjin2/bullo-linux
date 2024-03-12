@@ -1,0 +1,1 @@
+savedcmd_sound/soc/tegra/snd-soc-tegra210-i2s.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/tegra/snd-soc-tegra210-i2s.ko sound/soc/tegra/snd-soc-tegra210-i2s.o sound/soc/tegra/snd-soc-tegra210-i2s.mod.o;  true

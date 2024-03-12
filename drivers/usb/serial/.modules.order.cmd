@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/serial/modules.order := {   echo drivers/usb/serial/usbserial.o;   echo drivers/usb/serial/cp210x.o;   echo drivers/usb/serial/ftdi_sio.o;   echo drivers/usb/serial/option.o;   echo drivers/usb/serial/usb_wwan.o; :; } > drivers/usb/serial/modules.order

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/usb/ax88179_178a.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/ax88179_178a.ko drivers/net/usb/ax88179_178a.o drivers/net/usb/ax88179_178a.mod.o;  true

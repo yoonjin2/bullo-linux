@@ -1,0 +1,1 @@
+savedcmd_sound/pci/hda/snd-hda-intel.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/pci/hda/snd-hda-intel.ko sound/pci/hda/snd-hda-intel.o sound/pci/hda/snd-hda-intel.mod.o;  true

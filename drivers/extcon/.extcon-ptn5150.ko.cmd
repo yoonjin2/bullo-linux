@@ -1,0 +1,1 @@
+savedcmd_drivers/extcon/extcon-ptn5150.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/extcon/extcon-ptn5150.ko drivers/extcon/extcon-ptn5150.o drivers/extcon/extcon-ptn5150.mod.o;  true

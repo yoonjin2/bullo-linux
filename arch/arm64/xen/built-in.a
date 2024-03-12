@@ -1,0 +1,12 @@
+!<thin>
+//                                              110       `
+../../arm/xen/enlighten.o/
+../../arm/xen/grant-table.o/
+../../arm/xen/p2m.o/
+../../arm/xen/mm.o/
+hypercall.o/
+/0              0           0     0     644     31848     `
+/27             0           0     0     644     1344      `
+/56             0           0     0     644     8048      `
+/77             0           0     0     644     4656      `
+/97             0           0     0     644     2048      `

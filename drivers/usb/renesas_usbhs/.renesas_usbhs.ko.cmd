@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/renesas_usbhs/renesas_usbhs.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/renesas_usbhs/renesas_usbhs.ko drivers/usb/renesas_usbhs/renesas_usbhs.o drivers/usb/renesas_usbhs/renesas_usbhs.mod.o;  true

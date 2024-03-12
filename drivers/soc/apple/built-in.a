@@ -1,0 +1,19 @@
+!<thin>
+//                                              120       `
+apple-pmgr-pwrstate.o/
+apple-pmgr-misc.o/
+mailbox.o/
+rtkit.o/
+rtkit-crashlog.o/
+rtkit-helper.o/
+sart.o/
+dockchannel.o/
+
+/0              0           0     0     644     11472     `
+/23             0           0     0     644     7024      `
+/42             0           0     0     644     15432     `
+/53             0           0     0     644     26200     `
+/62             0           0     0     644     6784      `
+/80             0           0     0     644     7424      `
+/96             0           0     0     644     12120     `
+/104            0           0     0     644     16560     `

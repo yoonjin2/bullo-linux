@@ -1,0 +1,10 @@
+!<thin>
+//                                              64        `
+hisi_powerkey.o/
+macsmc-hid.o/
+pm8941-pwrkey.o/
+xen-kbdfront.o/
+/0              0           0     0     644     7568      `
+/17             0           0     0     644     8664      `
+/31             0           0     0     644     13584     `
+/48             0           0     0     644     16464     `

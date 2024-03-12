@@ -1,0 +1,1 @@
+savedcmd_drivers/acpi/pfr_telemetry.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/acpi/pfr_telemetry.ko drivers/acpi/pfr_telemetry.o drivers/acpi/pfr_telemetry.mod.o;  true

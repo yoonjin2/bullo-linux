@@ -1,0 +1,1 @@
+savedcmd_drivers/net/mdio.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/mdio.ko drivers/net/mdio.o drivers/net/mdio.mod.o;  true

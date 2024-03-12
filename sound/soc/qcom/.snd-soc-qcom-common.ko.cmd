@@ -1,0 +1,1 @@
+savedcmd_sound/soc/qcom/snd-soc-qcom-common.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/qcom/snd-soc-qcom-common.ko sound/soc/qcom/snd-soc-qcom-common.o sound/soc/qcom/snd-soc-qcom-common.mod.o;  true

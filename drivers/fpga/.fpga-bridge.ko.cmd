@@ -1,0 +1,1 @@
+savedcmd_drivers/fpga/fpga-bridge.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/fpga/fpga-bridge.ko drivers/fpga/fpga-bridge.o drivers/fpga/fpga-bridge.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/interconnect/qcom/icc-smd-rpm.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/interconnect/qcom/icc-smd-rpm.ko drivers/interconnect/qcom/icc-smd-rpm.o drivers/interconnect/qcom/icc-smd-rpm.mod.o;  true

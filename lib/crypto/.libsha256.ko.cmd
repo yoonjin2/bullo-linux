@@ -1,0 +1,1 @@
+savedcmd_lib/crypto/libsha256.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o lib/crypto/libsha256.ko lib/crypto/libsha256.o lib/crypto/libsha256.mod.o;  true

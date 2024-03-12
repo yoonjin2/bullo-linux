@@ -1,0 +1,1 @@
+savedcmd_drivers/bluetooth/hci_uart.mod := printf '%s\n'   hci_ldisc.o hci_serdev.o hci_h4.o hci_ll.o hci_bcm.o hci_qca.o hci_mrvl.o hci_ldisc.o hci_serdev.o hci_h4.o hci_ll.o hci_bcm.o hci_qca.o hci_mrvl.o | awk '!x[$$0]++ { print("drivers/bluetooth/"$$0) }' > drivers/bluetooth/hci_uart.mod

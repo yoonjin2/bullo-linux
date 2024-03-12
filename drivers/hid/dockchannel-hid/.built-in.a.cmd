@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/dockchannel-hid/built-in.a := rm -f drivers/hid/dockchannel-hid/built-in.a;  printf "drivers/hid/dockchannel-hid/%s " dockchannel-hid.o | xargs ar cDPrST drivers/hid/dockchannel-hid/built-in.a

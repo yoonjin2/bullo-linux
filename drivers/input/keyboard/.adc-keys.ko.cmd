@@ -1,0 +1,1 @@
+savedcmd_drivers/input/keyboard/adc-keys.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/adc-keys.ko drivers/input/keyboard/adc-keys.o drivers/input/keyboard/adc-keys.mod.o;  true

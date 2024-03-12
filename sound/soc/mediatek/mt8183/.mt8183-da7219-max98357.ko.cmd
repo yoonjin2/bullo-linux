@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/mt8183/mt8183-da7219-max98357.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/mediatek/mt8183/mt8183-da7219-max98357.ko sound/soc/mediatek/mt8183/mt8183-da7219-max98357.o sound/soc/mediatek/mt8183/mt8183-da7219-max98357.mod.o;  true

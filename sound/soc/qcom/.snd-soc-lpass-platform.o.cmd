@@ -1,0 +1,1 @@
+savedcmd_sound/soc/qcom/snd-soc-lpass-platform.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/qcom/snd-soc-lpass-platform.o @sound/soc/qcom/snd-soc-lpass-platform.mod 

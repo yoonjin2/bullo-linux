@@ -1,0 +1,22 @@
+!<thin>
+//                                              130       `
+appletouch.o/
+psmouse-base.o/
+synaptics.o/
+focaltech.o/
+alps.o/
+byd.o/
+logips2pp.o/
+trackpoint.o/
+cypress_ps2.o/
+psmouse-smbus.o/
+/0              0           0     0     644     33688     `
+/14             0           0     0     644     47856     `
+/30             0           0     0     644     40296     `
+/43             0           0     0     644     11144     `
+/56             0           0     0     644     44384     `
+/64             0           0     0     644     7872      `
+/71             0           0     0     644     8584      `
+/84             0           0     0     644     16912     `
+/98             0           0     0     644     10032     `
+/113            0           0     0     644     8672      `

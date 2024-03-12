@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/light/modules.order := {   echo drivers/iio/light/cros_ec_light_prox.o;   echo drivers/iio/light/isl29018.o;   echo drivers/iio/light/vcnl4000.o; :; } > drivers/iio/light/modules.order

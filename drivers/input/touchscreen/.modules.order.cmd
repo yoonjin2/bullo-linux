@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/modules.order := {   echo drivers/input/touchscreen/atmel_mxt_ts.o;   echo drivers/input/touchscreen/edt-ft5x06.o;   echo drivers/input/touchscreen/elants_i2c.o;   echo drivers/input/touchscreen/goodix_ts.o; :; } > drivers/input/touchscreen/modules.order

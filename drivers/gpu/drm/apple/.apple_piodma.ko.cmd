@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/apple/apple_piodma.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/apple/apple_piodma.ko drivers/gpu/drm/apple/apple_piodma.o drivers/gpu/drm/apple/apple_piodma.mod.o;  true

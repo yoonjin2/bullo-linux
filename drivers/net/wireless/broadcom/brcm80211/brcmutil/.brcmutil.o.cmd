@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.o @drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.mod 

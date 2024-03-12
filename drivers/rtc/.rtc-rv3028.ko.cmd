@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-rv3028.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-rv3028.ko drivers/rtc/rtc-rv3028.o drivers/rtc/rtc-rv3028.mod.o;  true

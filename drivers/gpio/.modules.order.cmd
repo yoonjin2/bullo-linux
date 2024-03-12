@@ -1,0 +1,1 @@
+savedcmd_drivers/gpio/modules.order := {   echo drivers/gpio/gpio-regmap.o;   echo drivers/gpio/gpio-altera.o;   echo drivers/gpio/gpio-bd9571mwv.o;   echo drivers/gpio/gpio-sl28cpld.o;   echo drivers/gpio/gpio-wcd934x.o; :; } > drivers/gpio/modules.order

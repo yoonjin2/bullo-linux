@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/allwinner/sun8i-ce/sun8i-ce.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/crypto/allwinner/sun8i-ce/sun8i-ce.ko drivers/crypto/allwinner/sun8i-ce/sun8i-ce.o drivers/crypto/allwinner/sun8i-ce/sun8i-ce.mod.o;  true

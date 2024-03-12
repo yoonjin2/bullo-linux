@@ -1,0 +1,15 @@
+drivers/gpu/drm/mediatek/mtk_disp_aal.o
+drivers/gpu/drm/mediatek/mtk_disp_ccorr.o
+drivers/gpu/drm/mediatek/mtk_disp_color.o
+drivers/gpu/drm/mediatek/mtk_disp_gamma.o
+drivers/gpu/drm/mediatek/mtk_disp_merge.o
+drivers/gpu/drm/mediatek/mtk_disp_ovl.o
+drivers/gpu/drm/mediatek/mtk_disp_rdma.o
+drivers/gpu/drm/mediatek/mtk_drm_crtc.o
+drivers/gpu/drm/mediatek/mtk_drm_ddp_comp.o
+drivers/gpu/drm/mediatek/mtk_drm_drv.o
+drivers/gpu/drm/mediatek/mtk_drm_gem.o
+drivers/gpu/drm/mediatek/mtk_drm_plane.o
+drivers/gpu/drm/mediatek/mtk_dsi.o
+drivers/gpu/drm/mediatek/mtk_dpi.o
+drivers/gpu/drm/mediatek/mtk_mdp_rdma.o

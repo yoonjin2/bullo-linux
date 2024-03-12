@@ -1,0 +1,1 @@
+savedcmd_drivers/dma/sh/usb-dmac.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/dma/sh/usb-dmac.ko drivers/dma/sh/usb-dmac.o drivers/dma/sh/usb-dmac.mod.o;  true

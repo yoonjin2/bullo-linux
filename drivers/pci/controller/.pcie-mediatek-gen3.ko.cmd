@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/controller/pcie-mediatek-gen3.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/pci/controller/pcie-mediatek-gen3.ko drivers/pci/controller/pcie-mediatek-gen3.o drivers/pci/controller/pcie-mediatek-gen3.mod.o;  true

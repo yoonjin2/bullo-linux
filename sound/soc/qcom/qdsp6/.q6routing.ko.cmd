@@ -1,0 +1,1 @@
+savedcmd_sound/soc/qcom/qdsp6/q6routing.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/qcom/qdsp6/q6routing.ko sound/soc/qcom/qdsp6/q6routing.o sound/soc/qcom/qdsp6/q6routing.mod.o;  true

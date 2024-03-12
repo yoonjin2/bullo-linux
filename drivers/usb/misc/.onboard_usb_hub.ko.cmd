@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/misc/onboard_usb_hub.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/misc/onboard_usb_hub.ko drivers/usb/misc/onboard_usb_hub.o drivers/usb/misc/onboard_usb_hub.mod.o;  true

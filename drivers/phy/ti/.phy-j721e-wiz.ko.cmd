@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/ti/phy-j721e-wiz.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/phy/ti/phy-j721e-wiz.ko drivers/phy/ti/phy-j721e-wiz.o drivers/phy/ti/phy-j721e-wiz.mod.o;  true

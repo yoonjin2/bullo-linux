@@ -1,0 +1,1 @@
+savedcmd_drivers/mailbox/bcm-flexrm-mailbox.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mailbox/bcm-flexrm-mailbox.ko drivers/mailbox/bcm-flexrm-mailbox.o drivers/mailbox/bcm-flexrm-mailbox.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/v4l2-core/videodev.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/v4l2-core/videodev.ko drivers/media/v4l2-core/videodev.o drivers/media/v4l2-core/videodev.mod.o;  true

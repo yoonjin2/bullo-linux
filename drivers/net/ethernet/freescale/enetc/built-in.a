@@ -1,0 +1,25 @@
+!<thin>
+//                                              150       `
+enetc.o/
+enetc_cbdr.o/
+enetc_ethtool.o/
+enetc_pf.o/
+enetc_msg.o/
+enetc_qos.o/
+enetc_vf.o/
+enetc_ierb.o/
+enetc_pci_mdio.o/
+enetc_mdio.o/
+enetc_ptp.o/
+
+/0              0           0     0     644     78880     `
+/9              0           0     0     644     11240     `
+/23             0           0     0     644     38104     `
+/40             0           0     0     644     30768     `
+/52             0           0     0     644     6896      `
+/65             0           0     0     644     27560     `
+/78             0           0     0     644     10320     `
+/90             0           0     0     644     5704      `
+/104            0           0     0     644     6600      `
+/122            0           0     0     644     9064      `
+/136            0           0     0     644     9232      `

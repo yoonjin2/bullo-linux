@@ -1,0 +1,1 @@
+savedcmd_sound/soc/tegra/snd-soc-tegra210-admaif.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/tegra/snd-soc-tegra210-admaif.o @sound/soc/tegra/snd-soc-tegra210-admaif.mod 

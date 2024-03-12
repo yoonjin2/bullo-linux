@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/realtek/r8169.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/realtek/r8169.ko drivers/net/ethernet/realtek/r8169.o drivers/net/ethernet/realtek/r8169.mod.o;  true

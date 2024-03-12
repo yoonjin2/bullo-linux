@@ -1,0 +1,1 @@
+savedcmd_drivers/char/ipmi/ipmi_msghandler.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/char/ipmi/ipmi_msghandler.ko drivers/char/ipmi/ipmi_msghandler.o drivers/char/ipmi/ipmi_msghandler.mod.o;  true

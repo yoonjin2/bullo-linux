@@ -1,0 +1,1 @@
+savedcmd_drivers/media/tuners/tda9887.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/tda9887.ko drivers/media/tuners/tda9887.o drivers/media/tuners/tda9887.mod.o;  true

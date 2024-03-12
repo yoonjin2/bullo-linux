@@ -1,0 +1,1 @@
+savedcmd_drivers/perf/arm-ccn.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/perf/arm-ccn.ko drivers/perf/arm-ccn.o drivers/perf/arm-ccn.mod.o;  true

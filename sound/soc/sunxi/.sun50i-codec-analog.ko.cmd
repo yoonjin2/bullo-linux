@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sunxi/sun50i-codec-analog.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/sunxi/sun50i-codec-analog.ko sound/soc/sunxi/sun50i-codec-analog.o sound/soc/sunxi/sun50i-codec-analog.mod.o;  true

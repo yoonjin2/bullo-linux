@@ -1,0 +1,6 @@
+drivers/cpufreq/cpufreq_powersave.o
+drivers/cpufreq/cppc_cpufreq.o
+drivers/cpufreq/imx-cpufreq-dt.o
+drivers/cpufreq/mediatek-cpufreq-hw.o
+drivers/cpufreq/raspberrypi-cpufreq.o
+drivers/cpufreq/sun50i-cpufreq-nvmem.o

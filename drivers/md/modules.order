@@ -1,0 +1,6 @@
+drivers/md/md-mod.o
+drivers/md/dm-mod.o
+drivers/md/dm-mirror.o
+drivers/md/dm-log.o
+drivers/md/dm-region-hash.o
+drivers/md/dm-zero.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/media/imx/imx-media-common.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/imx/imx-media-common.ko drivers/staging/media/imx/imx-media-common.o drivers/staging/media/imx/imx-media-common.mod.o;  true

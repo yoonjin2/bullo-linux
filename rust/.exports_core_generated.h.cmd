@@ -1,0 +1,1 @@
+savedcmd_rust/exports_core_generated.h := nm -p --defined-only rust/core.o | grep -E ' (T|R|D) ' | cut -d ' ' -f 3 | xargs -Isymbol echo 'EXPORT_SYMBOL_RUST_GPL(symbol);' > rust/exports_core_generated.h

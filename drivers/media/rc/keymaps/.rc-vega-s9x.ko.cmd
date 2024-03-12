@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-vega-s9x.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-vega-s9x.ko drivers/media/rc/keymaps/rc-vega-s9x.o drivers/media/rc/keymaps/rc-vega-s9x.mod.o;  true

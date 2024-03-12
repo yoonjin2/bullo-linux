@@ -1,0 +1,1 @@
+savedcmd_drivers/rpmsg/rpmsg_char.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rpmsg/rpmsg_char.ko drivers/rpmsg/rpmsg_char.o drivers/rpmsg/rpmsg_char.mod.o;  true

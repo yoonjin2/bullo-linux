@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/mtk-vcodec-common.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/mediatek/vcodec/mtk-vcodec-common.ko drivers/media/platform/mediatek/vcodec/mtk-vcodec-common.o drivers/media/platform/mediatek/vcodec/mtk-vcodec-common.mod.o;  true

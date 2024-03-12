@@ -1,0 +1,1 @@
+savedcmd_drivers/nvmem/nvmem-layerscape-sfp.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/nvmem/nvmem-layerscape-sfp.o @drivers/nvmem/nvmem-layerscape-sfp.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-qcom-ethqos.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/stmicro/stmmac/dwmac-qcom-ethqos.ko drivers/net/ethernet/stmicro/stmmac/dwmac-qcom-ethqos.o drivers/net/ethernet/stmicro/stmmac/dwmac-qcom-ethqos.mod.o;  true

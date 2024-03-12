@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/qcom/qcom-spmi-temp-alarm.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/thermal/qcom/qcom-spmi-temp-alarm.ko drivers/thermal/qcom/qcom-spmi-temp-alarm.o drivers/thermal/qcom/qcom-spmi-temp-alarm.mod.o;  true

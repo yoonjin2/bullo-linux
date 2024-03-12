@@ -1,0 +1,1 @@
+savedcmd_sound/soc/mediatek/common/snd-soc-mtk-common.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/mediatek/common/snd-soc-mtk-common.o @sound/soc/mediatek/common/snd-soc-mtk-common.mod 

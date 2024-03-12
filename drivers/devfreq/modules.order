@@ -1,0 +1,3 @@
+drivers/devfreq/governor_passive.o
+drivers/devfreq/imx8m-ddrc.o
+drivers/devfreq/mtk-cci-devfreq.o

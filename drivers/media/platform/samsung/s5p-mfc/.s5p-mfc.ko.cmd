@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/samsung/s5p-mfc/s5p-mfc.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/samsung/s5p-mfc/s5p-mfc.ko drivers/media/platform/samsung/s5p-mfc/s5p-mfc.o drivers/media/platform/samsung/s5p-mfc/s5p-mfc.mod.o;  true

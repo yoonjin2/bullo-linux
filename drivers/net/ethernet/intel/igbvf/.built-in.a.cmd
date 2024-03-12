@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/intel/igbvf/built-in.a := rm -f drivers/net/ethernet/intel/igbvf/built-in.a;  printf "drivers/net/ethernet/intel/igbvf/%s " vf.o mbx.o ethtool.o netdev.o | xargs ar cDPrST drivers/net/ethernet/intel/igbvf/built-in.a

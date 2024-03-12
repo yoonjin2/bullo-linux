@@ -1,0 +1,29 @@
+!<thin>
+//                                              326       `
+arm_pmu.o/
+arm_pmu_platform.o/
+arm_pmu_acpi.o/
+hisilicon/hisi_uncore_pmu.o/
+hisilicon/hisi_uncore_l3c_pmu.o/
+hisilicon/hisi_uncore_hha_pmu.o/
+hisilicon/hisi_uncore_ddrc_pmu.o/
+hisilicon/hisi_uncore_sllc_pmu.o/
+hisilicon/hisi_uncore_pa_pmu.o/
+hisilicon/hisi_uncore_cpa_pmu.o/
+qcom_l2_pmu.o/
+qcom_l3_pmu.o/
+apple_m1_cpu_pmu.o/
+
+/0              0           0     0     644     25664     `
+/11             0           0     0     644     8736      `
+/31             0           0     0     644     12936     `
+/47             0           0     0     644     22928     `
+/76             0           0     0     644     20632     `
+/109            0           0     0     644     22192     `
+/142            0           0     0     644     20000     `
+/176            0           0     0     644     16672     `
+/210            0           0     0     644     15784     `
+/242            0           0     0     644     14536     `
+/275            0           0     0     644     24736     `
+/290            0           0     0     644     15872     `
+/305            0           0     0     644     15800     `

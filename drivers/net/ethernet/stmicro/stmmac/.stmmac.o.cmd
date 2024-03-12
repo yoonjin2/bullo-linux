@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/stmmac.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/ethernet/stmicro/stmmac/stmmac.o @drivers/net/ethernet/stmicro/stmmac/stmmac.mod 

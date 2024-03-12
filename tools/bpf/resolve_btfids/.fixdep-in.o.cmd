@@ -1,0 +1,1 @@
+cmd_/usr/src/kernels/6.6.3-413.asahi.fc39.aarch64+16k/tools/bpf/resolve_btfids/fixdep-in.o :=  ld -r -o /usr/src/kernels/6.6.3-413.asahi.fc39.aarch64+16k/tools/bpf/resolve_btfids/fixdep-in.o  /usr/src/kernels/6.6.3-413.asahi.fc39.aarch64+16k/tools/bpf/resolve_btfids/fixdep.o

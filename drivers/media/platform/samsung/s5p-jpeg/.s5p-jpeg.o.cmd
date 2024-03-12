@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.o @drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.mod 

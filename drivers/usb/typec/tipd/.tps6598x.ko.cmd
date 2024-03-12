@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/typec/tipd/tps6598x.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/tipd/tps6598x.ko drivers/usb/typec/tipd/tps6598x.o drivers/usb/typec/tipd/tps6598x.mod.o;  true

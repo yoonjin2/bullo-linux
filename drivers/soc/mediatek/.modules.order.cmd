@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/mediatek/modules.order := {   echo drivers/soc/mediatek/mtk-cmdq-helper.o;   echo drivers/soc/mediatek/mtk-devapc.o;   echo drivers/soc/mediatek/mtk-svs.o; :; } > drivers/soc/mediatek/modules.order

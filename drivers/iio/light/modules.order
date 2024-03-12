@@ -1,0 +1,3 @@
+drivers/iio/light/cros_ec_light_prox.o
+drivers/iio/light/isl29018.o
+drivers/iio/light/vcnl4000.o

@@ -1,0 +1,3 @@
+drivers/input/keyboard/adc-keys.o
+drivers/input/keyboard/imx_sc_key.o
+drivers/input/keyboard/snvs_pwrkey.o

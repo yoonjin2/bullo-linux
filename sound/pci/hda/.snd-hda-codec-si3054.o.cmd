@@ -1,0 +1,1 @@
+savedcmd_sound/pci/hda/snd-hda-codec-si3054.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/pci/hda/snd-hda-codec-si3054.o @sound/pci/hda/snd-hda-codec-si3054.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.o @drivers/net/ethernet/mscc/mscc_ocelot_switch_lib.mod 

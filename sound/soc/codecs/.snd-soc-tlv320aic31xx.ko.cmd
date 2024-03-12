@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-tlv320aic31xx.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-tlv320aic31xx.ko sound/soc/codecs/snd-soc-tlv320aic31xx.o sound/soc/codecs/snd-soc-tlv320aic31xx.mod.o;  true

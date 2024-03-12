@@ -1,0 +1,25 @@
+!<thin>
+//                                              196       `
+host/core.o/
+host/ioctl.o/
+host/hwmon.o/
+host/apple.o/
+target/core.o/
+target/configfs.o/
+target/admin-cmd.o/
+target/fabrics-cmd.o/
+target/discovery.o/
+target/io-cmd-file.o/
+target/io-cmd-bdev.o/
+
+/0              0           0     0     644     152528    `
+/13             0           0     0     644     16640     `
+/27             0           0     0     644     7200      `
+/41             0           0     0     644     36800     `
+/55             0           0     0     644     44064     `
+/70             0           0     0     644     56584     `
+/89             0           0     0     644     19152     `
+/109            0           0     0     644     7592      `
+/131            0           0     0     644     9856      `
+/151            0           0     0     644     11448     `
+/173            0           0     0     644     11256     `

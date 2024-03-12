@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/dmi-sysfs.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/firmware/dmi-sysfs.ko drivers/firmware/dmi-sysfs.o drivers/firmware/dmi-sysfs.mod.o;  true

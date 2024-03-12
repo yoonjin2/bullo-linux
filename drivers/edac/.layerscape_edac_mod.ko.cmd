@@ -1,0 +1,1 @@
+savedcmd_drivers/edac/layerscape_edac_mod.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/edac/layerscape_edac_mod.ko drivers/edac/layerscape_edac_mod.o drivers/edac/layerscape_edac_mod.mod.o;  true

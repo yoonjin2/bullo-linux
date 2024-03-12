@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-delock-61959.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-delock-61959.ko drivers/media/rc/keymaps/rc-delock-61959.o drivers/media/rc/keymaps/rc-delock-61959.mod.o;  true

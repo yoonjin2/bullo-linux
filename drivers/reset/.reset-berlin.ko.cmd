@@ -1,0 +1,1 @@
+savedcmd_drivers/reset/reset-berlin.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/reset/reset-berlin.ko drivers/reset/reset-berlin.o drivers/reset/reset-berlin.mod.o;  true

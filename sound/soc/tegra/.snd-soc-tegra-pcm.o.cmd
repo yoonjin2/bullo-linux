@@ -1,0 +1,1 @@
+savedcmd_sound/soc/tegra/snd-soc-tegra-pcm.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/tegra/snd-soc-tegra-pcm.o @sound/soc/tegra/snd-soc-tegra-pcm.mod 

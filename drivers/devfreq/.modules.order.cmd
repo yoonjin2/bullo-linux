@@ -1,0 +1,1 @@
+savedcmd_drivers/devfreq/modules.order := {   echo drivers/devfreq/governor_passive.o;   echo drivers/devfreq/imx8m-ddrc.o;   echo drivers/devfreq/mtk-cci-devfreq.o; :; } > drivers/devfreq/modules.order

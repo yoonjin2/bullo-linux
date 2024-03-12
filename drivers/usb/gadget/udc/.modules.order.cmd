@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/udc/modules.order := {   cat drivers/usb/gadget/udc/bdc/modules.order;   echo drivers/usb/gadget/udc/tegra-xudc.o;   echo drivers/usb/gadget/udc/renesas_usb3.o; :; } > drivers/usb/gadget/udc/modules.order

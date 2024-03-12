@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/rockchip/phy-rockchip-inno-dsidphy.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/phy/rockchip/phy-rockchip-inno-dsidphy.ko drivers/phy/rockchip/phy-rockchip-inno-dsidphy.o drivers/phy/rockchip/phy-rockchip-inno-dsidphy.mod.o;  true

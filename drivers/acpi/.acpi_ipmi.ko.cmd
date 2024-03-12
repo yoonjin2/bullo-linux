@@ -1,0 +1,1 @@
+savedcmd_drivers/acpi/acpi_ipmi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/acpi/acpi_ipmi.ko drivers/acpi/acpi_ipmi.o drivers/acpi/acpi_ipmi.mod.o;  true

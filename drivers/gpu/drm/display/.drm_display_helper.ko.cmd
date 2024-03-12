@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/display/drm_display_helper.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/display/drm_display_helper.ko drivers/gpu/drm/display/drm_display_helper.o drivers/gpu/drm/display/drm_display_helper.mod.o;  true

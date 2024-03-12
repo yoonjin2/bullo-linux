@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/libcomposite.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/libcomposite.ko drivers/usb/gadget/libcomposite.o drivers/usb/gadget/libcomposite.mod.o;  true

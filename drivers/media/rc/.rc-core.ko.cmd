@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/rc-core.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/rc-core.ko drivers/media/rc/rc-core.o drivers/media/rc/rc-core.mod.o;  true

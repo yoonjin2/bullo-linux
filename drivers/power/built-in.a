@@ -1,0 +1,31 @@
+!<thin>
+//                                              368       `
+reset/brcmstb-reboot.o/
+reset/macsmc-reboot.o/
+reset/msm-poweroff.o/
+reset/xgene-reboot.o/
+reset/syscon-reboot.o/
+reset/reboot-mode.o/
+reset/syscon-reboot-mode.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+supply/power_supply_hwmon.o/
+supply/bq27xxx_battery.o/
+supply/bq27xxx_battery_i2c.o/
+supply/cros_peripheral_charger.o/
+
+/0              0           0     0     644     6672      `
+/24             0           0     0     644     13384     `
+/47             0           0     0     644     4480      `
+/69             0           0     0     644     4664      `
+/91             0           0     0     644     5392      `
+/114            0           0     0     644     7944      `
+/135            0           0     0     644     5832      `
+/163            0           0     0     644     52712     `
+/191            0           0     0     644     25832     `
+/220            0           0     0     644     3936      `
+/248            0           0     0     644     7608      `
+/277            0           0     0     644     28936     `
+/303            0           0     0     644     15528     `
+/333            0           0     0     644     8792      `

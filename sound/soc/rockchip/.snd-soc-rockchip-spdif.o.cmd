@@ -1,0 +1,1 @@
+savedcmd_sound/soc/rockchip/snd-soc-rockchip-spdif.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/rockchip/snd-soc-rockchip-spdif.o @sound/soc/rockchip/snd-soc-rockchip-spdif.mod 

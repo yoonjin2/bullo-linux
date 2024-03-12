@@ -1,0 +1,1 @@
+savedcmd_drivers/spmi/spmi-mtk-pmif.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/spmi/spmi-mtk-pmif.ko drivers/spmi/spmi-mtk-pmif.o drivers/spmi/spmi-mtk-pmif.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/mediatek/phy-mtk-mipi-dsi-drv.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/phy/mediatek/phy-mtk-mipi-dsi-drv.ko drivers/phy/mediatek/phy-mtk-mipi-dsi-drv.o drivers/phy/mediatek/phy-mtk-mipi-dsi-drv.mod.o;  true

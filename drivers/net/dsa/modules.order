@@ -1,0 +1,5 @@
+drivers/net/dsa/b53/b53_common.o
+drivers/net/dsa/b53/b53_srab.o
+drivers/net/dsa/ocelot/mscc_felix_dsa_lib.o
+drivers/net/dsa/ocelot/mscc_felix.o
+drivers/net/dsa/bcm-sf2.o

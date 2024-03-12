@@ -1,0 +1,50 @@
+!<thin>
+//                                              394       `
+hid-core.o/
+hid-input.o/
+hid-quirks.o/
+hid-debug.o/
+hid-generic.o/
+hid-a4tech.o/
+hid-apple.o/
+hid-appleir.o/
+hid-belkin.o/
+hid-cherry.o/
+hid-chicony.o/
+hid-cypress.o/
+hid-ezkey.o/
+hid-ite.o/
+hid-kensington.o/
+hid-lg.o/
+hid-lg-g15.o/
+hid-microsoft.o/
+hid-monterey.o/
+hid-redragon.o/
+usbhid/hid-core.o/
+spi-hid/spi-hid-apple-core.o/
+spi-hid/spi-hid-apple-of.o/
+dockchannel-hid/dockchannel-hid.o/
+/0              0           0     0     644     71696     `
+/12             0           0     0     644     50536     `
+/25             0           0     0     644     23816     `
+/39             0           0     0     644     77144     `
+/52             0           0     0     644     5000      `
+/67             0           0     0     644     6096      `
+/81             0           0     0     644     23560     `
+/94             0           0     0     644     8520      `
+/109            0           0     0     644     6232      `
+/123            0           0     0     644     5928      `
+/137            0           0     0     644     11520     `
+/152            0           0     0     644     5928      `
+/167            0           0     0     644     5488      `
+/180            0           0     0     644     6904      `
+/191            0           0     0     644     5000      `
+/209            0           0     0     644     29752     `
+/219            0           0     0     644     23960     `
+/233            0           0     0     644     14072     `
+/250            0           0     0     644     6224      `
+/266            0           0     0     644     4360      `
+/282            0           0     0     644     41256     `
+/301            0           0     0     644     19104     `
+/331            0           0     0     644     7312      `
+/359            0           0     0     644     28504     `

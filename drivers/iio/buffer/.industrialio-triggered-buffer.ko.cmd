@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/buffer/industrialio-triggered-buffer.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/buffer/industrialio-triggered-buffer.ko drivers/iio/buffer/industrialio-triggered-buffer.o drivers/iio/buffer/industrialio-triggered-buffer.mod.o;  true

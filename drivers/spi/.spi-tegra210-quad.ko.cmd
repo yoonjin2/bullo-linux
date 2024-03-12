@@ -1,0 +1,1 @@
+savedcmd_drivers/spi/spi-tegra210-quad.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-tegra210-quad.ko drivers/spi/spi-tegra210-quad.o drivers/spi/spi-tegra210-quad.mod.o;  true

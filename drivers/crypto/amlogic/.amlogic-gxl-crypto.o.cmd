@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/amlogic/amlogic-gxl-crypto.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/crypto/amlogic/amlogic-gxl-crypto.o @drivers/crypto/amlogic/amlogic-gxl-crypto.mod 

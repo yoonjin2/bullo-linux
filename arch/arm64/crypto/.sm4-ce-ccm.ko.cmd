@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/crypto/sm4-ce-ccm.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o arch/arm64/crypto/sm4-ce-ccm.ko arch/arm64/crypto/sm4-ce-ccm.o arch/arm64/crypto/sm4-ce-ccm.mod.o;  true

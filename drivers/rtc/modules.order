@@ -1,0 +1,16 @@
+drivers/rtc/rtc-ds1307.o
+drivers/rtc/rtc-fsl-ftm-alarm.o
+drivers/rtc/rtc-hym8563.o
+drivers/rtc/rtc-imx-sc.o
+drivers/rtc/rtc-m41t80.o
+drivers/rtc/rtc-meson-vrtc.o
+drivers/rtc/rtc-mt6397.o
+drivers/rtc/rtc-pcf2127.o
+drivers/rtc/rtc-pcf85063.o
+drivers/rtc/rtc-pcf85363.o
+drivers/rtc/rtc-pm8xxx.o
+drivers/rtc/rtc-rk808.o
+drivers/rtc/rtc-rv3028.o
+drivers/rtc/rtc-rv8803.o
+drivers/rtc/rtc-rx8581.o
+drivers/rtc/rtc-snvs.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/soundwire/soundwire-qcom.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/soundwire/soundwire-qcom.o @drivers/soundwire/soundwire-qcom.mod 

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/adi/snd-soc-adi-axi-i2s.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/adi/snd-soc-adi-axi-i2s.o @sound/soc/adi/snd-soc-adi-axi-i2s.mod 

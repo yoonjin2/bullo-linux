@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/ath10k/ath10k_snoc.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ath/ath10k/ath10k_snoc.ko drivers/net/wireless/ath/ath10k/ath10k_snoc.o drivers/net/wireless/ath/ath10k/ath10k_snoc.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/watchdog/meson_wdt.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/meson_wdt.ko drivers/watchdog/meson_wdt.o drivers/watchdog/meson_wdt.mod.o;  true

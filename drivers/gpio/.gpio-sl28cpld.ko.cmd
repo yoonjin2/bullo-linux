@@ -1,0 +1,1 @@
+savedcmd_drivers/gpio/gpio-sl28cpld.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-sl28cpld.ko drivers/gpio/gpio-sl28cpld.o drivers/gpio/gpio-sl28cpld.mod.o;  true

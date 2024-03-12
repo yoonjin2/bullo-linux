@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/function/usb_f_acm.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/usb/gadget/function/usb_f_acm.o @drivers/usb/gadget/function/usb_f_acm.mod 

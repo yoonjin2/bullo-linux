@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-wcd-mbhc.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-wcd-mbhc.ko sound/soc/codecs/snd-soc-wcd-mbhc.o sound/soc/codecs/snd-soc-wcd-mbhc.mod.o;  true

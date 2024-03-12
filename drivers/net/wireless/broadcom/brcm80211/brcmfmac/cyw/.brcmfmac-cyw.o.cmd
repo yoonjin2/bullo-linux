@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/brcmfmac-cyw.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/brcmfmac-cyw.o @drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/brcmfmac-cyw.mod 

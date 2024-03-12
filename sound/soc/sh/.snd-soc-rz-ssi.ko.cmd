@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sh/snd-soc-rz-ssi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/sh/snd-soc-rz-ssi.ko sound/soc/sh/snd-soc-rz-ssi.o sound/soc/sh/snd-soc-rz-ssi.mod.o;  true

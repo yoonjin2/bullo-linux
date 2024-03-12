@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/hotplug/built-in.a := rm -f drivers/pci/hotplug/built-in.a;  printf "drivers/pci/hotplug/%s " pci_hotplug_core.o acpi_pcihp.o pciehp_core.o pciehp_ctrl.o pciehp_pci.o pciehp_hpc.o acpiphp_core.o acpiphp_glue.o | xargs ar cDPrST drivers/pci/hotplug/built-in.a

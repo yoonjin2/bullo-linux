@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/crypto/built-in.a := rm -f arch/arm64/crypto/built-in.a;  printf "arch/arm64/crypto/%s " sha1-ce-glue.o sha1-ce-core.o sha2-ce-glue.o sha2-ce-core.o ghash-ce-glue.o ghash-ce-core.o aes-ce-core.o aes-ce-glue.o aes-ce-ccm-glue.o aes-ce-ccm-core.o aes-glue-ce.o aes-ce.o sha256-glue.o sha256-core.o | xargs ar cDPrST arch/arm64/crypto/built-in.a

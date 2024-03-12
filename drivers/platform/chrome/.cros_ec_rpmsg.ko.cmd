@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/chrome/cros_ec_rpmsg.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/platform/chrome/cros_ec_rpmsg.ko drivers/platform/chrome/cros_ec_rpmsg.o drivers/platform/chrome/cros_ec_rpmsg.mod.o;  true

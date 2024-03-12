@@ -1,0 +1,2 @@
+PATH=/home/iyunjin/.cargo/bin/:/home/iyunjin/.local/bin:/home/iyunjin/bin:/usr/lib64/ccache:/home/iyunjin/.cargo/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin
+EDITOR=vim

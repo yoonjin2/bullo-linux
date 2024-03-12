@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/built-in.a := rm -f sound/soc/codecs/built-in.a;  printf "sound/soc/codecs/%s " cs42l42.o cs42l83-i2c.o cs42l84.o tas2764.o tas2770.o | xargs ar cDPrST sound/soc/codecs/built-in.a

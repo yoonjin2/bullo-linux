@@ -1,0 +1,1 @@
+savedcmd_drivers/reset/reset-qcom-pdc.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/reset/reset-qcom-pdc.ko drivers/reset/reset-qcom-pdc.o drivers/reset/reset-qcom-pdc.mod.o;  true

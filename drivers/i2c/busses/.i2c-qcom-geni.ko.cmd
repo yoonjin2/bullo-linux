@@ -1,0 +1,1 @@
+savedcmd_drivers/i2c/busses/i2c-qcom-geni.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-qcom-geni.ko drivers/i2c/busses/i2c-qcom-geni.o drivers/i2c/busses/i2c-qcom-geni.mod.o;  true

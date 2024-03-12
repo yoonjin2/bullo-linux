@@ -1,0 +1,1 @@
+savedcmd_drivers/media/i2c/imx219.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/imx219.ko drivers/media/i2c/imx219.o drivers/media/i2c/imx219.mod.o;  true

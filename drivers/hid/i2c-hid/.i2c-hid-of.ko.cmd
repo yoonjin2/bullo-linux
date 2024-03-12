@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/i2c-hid/i2c-hid-of.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/i2c-hid/i2c-hid-of.ko drivers/hid/i2c-hid/i2c-hid-of.o drivers/hid/i2c-hid/i2c-hid-of.mod.o;  true

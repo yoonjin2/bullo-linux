@@ -1,0 +1,25 @@
+!<thin>
+//                                              160       `
+tee_core.o/
+tee_shm.o/
+tee_shm_pool.o/
+optee/core.o/
+optee/call.o/
+optee/notif.o/
+optee/rpc.o/
+optee/supp.o/
+optee/device.o/
+optee/smc_abi.o/
+optee/ffa_abi.o/
+
+/0              0           0     0     644     43640     `
+/12             0           0     0     644     13880     `
+/23             0           0     0     644     4736      `
+/39             0           0     0     644     9248      `
+/53             0           0     0     644     9288      `
+/67             0           0     0     644     3640      `
+/82             0           0     0     644     4536      `
+/95             0           0     0     644     6448      `
+/109            0           0     0     644     5144      `
+/125            0           0     0     644     20808     `
+/142            0           0     0     644     1248      `

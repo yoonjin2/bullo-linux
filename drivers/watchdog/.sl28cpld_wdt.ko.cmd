@@ -1,0 +1,1 @@
+savedcmd_drivers/watchdog/sl28cpld_wdt.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/sl28cpld_wdt.ko drivers/watchdog/sl28cpld_wdt.o drivers/watchdog/sl28cpld_wdt.mod.o;  true

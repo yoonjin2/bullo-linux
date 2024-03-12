@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-eztv.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-eztv.ko drivers/media/rc/keymaps/rc-eztv.o drivers/media/rc/keymaps/rc-eztv.mod.o;  true

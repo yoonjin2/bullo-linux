@@ -1,0 +1,1 @@
+savedcmd_drivers/remoteproc/mtk_scp_ipi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/remoteproc/mtk_scp_ipi.ko drivers/remoteproc/mtk_scp_ipi.o drivers/remoteproc/mtk_scp_ipi.mod.o;  true

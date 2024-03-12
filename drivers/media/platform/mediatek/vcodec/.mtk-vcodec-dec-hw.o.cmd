@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec-hw.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec-hw.o @drivers/media/platform/mediatek/vcodec/mtk-vcodec-dec-hw.mod 

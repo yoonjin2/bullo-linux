@@ -1,0 +1,1 @@
+savedcmd_crypto/xxhash_generic.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/xxhash_generic.ko crypto/xxhash_generic.o crypto/xxhash_generic.mod.o;  true

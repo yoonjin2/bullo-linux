@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/rockchip/rockchipdrm.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/rockchip/rockchipdrm.o @drivers/gpu/drm/rockchip/rockchipdrm.mod 

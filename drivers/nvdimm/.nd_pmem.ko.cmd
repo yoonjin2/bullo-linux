@@ -1,0 +1,1 @@
+savedcmd_drivers/nvdimm/nd_pmem.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/nvdimm/nd_pmem.ko drivers/nvdimm/nd_pmem.o drivers/nvdimm/nd_pmem.mod.o;  true

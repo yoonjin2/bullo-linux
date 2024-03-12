@@ -1,0 +1,1 @@
+savedcmd_drivers/accel/ane/ane.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/accel/ane/ane.ko drivers/accel/ane/ane.o drivers/accel/ane/ane.mod.o;  true

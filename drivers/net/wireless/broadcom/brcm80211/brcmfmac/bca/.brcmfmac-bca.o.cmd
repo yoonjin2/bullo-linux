@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.o @drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/mediatek/built-in.a := rm -f drivers/soc/mediatek/built-in.a;  printf "drivers/soc/mediatek/%s " mtk-infracfg.o mtk-pmic-wrap.o mtk-regulator-coupler.o mtk-scpsys.o mtk-pm-domains.o mtk-mmsys.o mtk-mutex.o | xargs ar cDPrST drivers/soc/mediatek/built-in.a

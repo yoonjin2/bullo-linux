@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/atmel_mxt_ts.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/atmel_mxt_ts.ko drivers/input/touchscreen/atmel_mxt_ts.o drivers/input/touchscreen/atmel_mxt_ts.mod.o;  true

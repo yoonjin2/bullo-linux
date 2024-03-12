@@ -1,0 +1,1 @@
+savedcmd_drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko drivers/nfc/s3fwrn5/s3fwrn5_i2c.o drivers/nfc/s3fwrn5/s3fwrn5_i2c.mod.o;  true

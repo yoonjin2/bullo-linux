@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/keymaps/rc-encore-enltv.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-encore-enltv.ko drivers/media/rc/keymaps/rc-encore-enltv.o drivers/media/rc/keymaps/rc-encore-enltv.mod.o;  true

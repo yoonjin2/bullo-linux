@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/analogix/analogix_dp.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/bridge/analogix/analogix_dp.o @drivers/gpu/drm/bridge/analogix/analogix_dp.mod 

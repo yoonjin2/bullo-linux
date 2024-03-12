@@ -1,0 +1,56 @@
+!<thin>
+//                                              378       `
+pci-quirks.o/
+ehci-hcd.o/
+ehci-pci.o/
+ehci-platform.o/
+ehci-npcm7xx.o/
+ehci-omap.o/
+ehci-orion.o/
+ehci-exynos.o/
+ohci-hcd.o/
+ohci-pci.o/
+ohci-platform.o/
+ohci-exynos.o/
+xhci.o/
+xhci-mem.o/
+xhci-ext-caps.o/
+xhci-ring.o/
+xhci-hub.o/
+xhci-dbg.o/
+xhci-trace.o/
+xhci-debugfs.o/
+xhci-pci-core.o/
+xhci-pci-asmedia.o/
+xhci-plat.o/
+xhci-rcar.o/
+xhci-mtk.o/
+xhci-mtk-sch.o/
+xhci-tegra.o/
+/0              0           0     0     644     29032     `
+/14             0           0     0     644     99912     `
+/26             0           0     0     644     11304     `
+/38             0           0     0     644     18960     `
+/55             0           0     0     644     7624      `
+/71             0           0     0     644     11432     `
+/84             0           0     0     644     10560     `
+/98             0           0     0     644     12424     `
+/113            0           0     0     644     67760     `
+/125            0           0     0     644     9192      `
+/137            0           0     0     644     14544     `
+/154            0           0     0     644     11960     `
+/169            0           0     0     644     126344    `
+/177            0           0     0     644     43912     `
+/189            0           0     0     644     5424      `
+/206            0           0     0     644     61248     `
+/219            0           0     0     644     37888     `
+/231            0           0     0     644     3128      `
+/243            0           0     0     644     1112      `
+/257            0           0     0     644     42024     `
+/273            0           0     0     644     16888     `
+/290            0           0     0     644     8760      `
+/310            0           0     0     644     18736     `
+/323            0           0     0     644     11256     `
+/336            0           0     0     644     23920     `
+/348            0           0     0     644     9936      `
+/364            0           0     0     644     54368     `

@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/tegra/tegra-soctherm.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/thermal/tegra/tegra-soctherm.o @drivers/thermal/tegra/tegra-soctherm.mod 

@@ -1,0 +1,16 @@
+!<thin>
+//                                              116       `
+mtk-infracfg.o/
+mtk-pmic-wrap.o/
+mtk-regulator-coupler.o/
+mtk-scpsys.o/
+mtk-pm-domains.o/
+mtk-mmsys.o/
+mtk-mutex.o/
+/0              0           0     0     644     3800      `
+/16             0           0     0     644     35048     `
+/33             0           0     0     644     4864      `
+/58             0           0     0     644     19328     `
+/72             0           0     0     644     67072     `
+/90             0           0     0     644     23440     `
+/103            0           0     0     644     27896     `

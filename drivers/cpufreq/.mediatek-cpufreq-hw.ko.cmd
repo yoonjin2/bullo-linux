@@ -1,0 +1,1 @@
+savedcmd_drivers/cpufreq/mediatek-cpufreq-hw.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/cpufreq/mediatek-cpufreq-hw.ko drivers/cpufreq/mediatek-cpufreq-hw.o drivers/cpufreq/mediatek-cpufreq-hw.mod.o;  true

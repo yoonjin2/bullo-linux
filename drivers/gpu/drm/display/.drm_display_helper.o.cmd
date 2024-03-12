@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/display/drm_display_helper.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/display/drm_display_helper.o @drivers/gpu/drm/display/drm_display_helper.mod 

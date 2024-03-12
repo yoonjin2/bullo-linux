@@ -1,0 +1,1 @@
+savedcmd_sound/hda/snd-intel-sdw-acpi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/hda/snd-intel-sdw-acpi.ko sound/hda/snd-intel-sdw-acpi.o sound/hda/snd-intel-sdw-acpi.mod.o;  true

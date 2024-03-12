@@ -1,0 +1,58 @@
+!<thin>
+//                                              488       `
+input.o/
+input-compat.o/
+input-mt.o/
+input-poller.o/
+ff-core.o/
+touchscreen.o/
+ff-memless.o/
+matrix-keymap.o/
+vivaldi-fmap.o/
+input-leds.o/
+evdev.o/
+keyboard/atkbd.o/
+keyboard/cros_ec_keyb.o/
+keyboard/gpio_keys.o/
+mouse/appletouch.o/
+mouse/psmouse-base.o/
+mouse/synaptics.o/
+mouse/focaltech.o/
+mouse/alps.o/
+mouse/byd.o/
+mouse/logips2pp.o/
+mouse/trackpoint.o/
+mouse/cypress_ps2.o/
+mouse/psmouse-smbus.o/
+misc/hisi_powerkey.o/
+misc/macsmc-hid.o/
+misc/pm8941-pwrkey.o/
+misc/xen-kbdfront.o/
+/0              0           0     0     644     73208     `
+/9              0           0     0     644     5232      `
+/25             0           0     0     644     11488     `
+/37             0           0     0     644     9224      `
+/53             0           0     0     644     8312      `
+/64             0           0     0     644     8632      `
+/79             0           0     0     644     13192     `
+/93             0           0     0     644     7104      `
+/110            0           0     0     644     3128      `
+/126            0           0     0     644     8792      `
+/140            0           0     0     644     37008     `
+/149            0           0     0     644     57440     `
+/167            0           0     0     644     16656     `
+/192            0           0     0     644     24416     `
+/214            0           0     0     644     33688     `
+/234            0           0     0     644     47856     `
+/256            0           0     0     644     40296     `
+/275            0           0     0     644     11144     `
+/294            0           0     0     644     44384     `
+/308            0           0     0     644     7872      `
+/321            0           0     0     644     8584      `
+/340            0           0     0     644     16912     `
+/360            0           0     0     644     10032     `
+/381            0           0     0     644     8672      `
+/404            0           0     0     644     7568      `
+/426            0           0     0     644     8664      `
+/445            0           0     0     644     13584     `
+/467            0           0     0     644     16464     `

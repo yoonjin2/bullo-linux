@@ -1,0 +1,1 @@
+savedcmd_net/qrtr/qrtr-tun.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/qrtr/qrtr-tun.ko net/qrtr/qrtr-tun.o net/qrtr/qrtr-tun.mod.o;  true

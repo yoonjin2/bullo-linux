@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/meson/meson-drm.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/meson/meson-drm.ko drivers/gpu/drm/meson/meson-drm.o drivers/gpu/drm/meson/meson-drm.mod.o;  true

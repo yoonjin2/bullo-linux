@@ -1,0 +1,1 @@
+savedcmd_drivers/input/mousedev.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/mousedev.ko drivers/input/mousedev.o drivers/input/mousedev.mod.o;  true

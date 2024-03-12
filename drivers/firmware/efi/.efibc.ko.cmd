@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/efi/efibc.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/firmware/efi/efibc.ko drivers/firmware/efi/efibc.o drivers/firmware/efi/efibc.mod.o;  true

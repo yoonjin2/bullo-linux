@@ -1,0 +1,45 @@
+!<thin>
+//                                              366       `
+mem.o/
+random.o/
+misc.o/
+virtio_console.o/
+tpm/tpm-chip.o/
+tpm/tpm-dev-common.o/
+tpm/tpm-dev.o/
+tpm/tpm-interface.o/
+tpm/tpm1-cmd.o/
+tpm/tpm2-cmd.o/
+tpm/tpmrm-dev.o/
+tpm/tpm2-space.o/
+tpm/tpm-sysfs.o/
+tpm/eventlog/common.o/
+tpm/eventlog/tpm1.o/
+tpm/eventlog/tpm2.o/
+tpm/tpm_ppi.o/
+tpm/eventlog/acpi.o/
+tpm/eventlog/efi.o/
+tpm/eventlog/of.o/
+tpm/tpm_i2c_infineon.o/
+
+/0              0           0     0     644     17632     `
+/7              0           0     0     644     55560     `
+/17             0           0     0     644     9408      `
+/25             0           0     0     644     46416     `
+/43             0           0     0     644     15304     `
+/59             0           0     0     644     9120      `
+/81             0           0     0     644     3112      `
+/96             0           0     0     644     18200     `
+/117            0           0     0     644     15264     `
+/133            0           0     0     644     17640     `
+/149            0           0     0     644     2744      `
+/166            0           0     0     644     15840     `
+/184            0           0     0     644     36368     `
+/201            0           0     0     644     6072      `
+/224            0           0     0     644     7576      `
+/245            0           0     0     644     3120      `
+/266            0           0     0     644     11072     `
+/281            0           0     0     644     3200      `
+/302            0           0     0     644     2992      `
+/322            0           0     0     644     3776      `
+/341            0           0     0     644     15024     `

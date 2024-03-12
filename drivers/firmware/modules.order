@@ -1,0 +1,7 @@
+drivers/firmware/arm_ffa/ffa-module.o
+drivers/firmware/arm_scmi/scmi_power_control.o
+drivers/firmware/efi/efibc.o
+drivers/firmware/efi/test/efi_test.o
+drivers/firmware/dmi-sysfs.o
+drivers/firmware/stratix10-rsu.o
+drivers/firmware/iscsi_ibft.o

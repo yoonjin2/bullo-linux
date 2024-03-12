@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/cdns3/cdns3-ti.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/cdns3/cdns3-ti.ko drivers/usb/cdns3/cdns3-ti.o drivers/usb/cdns3/cdns3-ti.mod.o;  true

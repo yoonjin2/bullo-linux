@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/vkms/vkms.mod := printf '%s\n'   vkms_drv.o vkms_plane.o vkms_output.o vkms_formats.o vkms_crtc.o vkms_composer.o vkms_writeback.o | awk '!x[$$0]++ { print("drivers/gpu/drm/vkms/"$$0) }' > drivers/gpu/drm/vkms/vkms.mod

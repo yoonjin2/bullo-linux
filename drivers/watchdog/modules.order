@@ -1,0 +1,8 @@
+drivers/watchdog/sunxi_wdt.o
+drivers/watchdog/imx_sc_wdt.o
+drivers/watchdog/qcom-wdt.o
+drivers/watchdog/meson_gxbb_wdt.o
+drivers/watchdog/meson_wdt.o
+drivers/watchdog/bcm7038_wdt.o
+drivers/watchdog/pm8916_wdt.o
+drivers/watchdog/sl28cpld_wdt.o

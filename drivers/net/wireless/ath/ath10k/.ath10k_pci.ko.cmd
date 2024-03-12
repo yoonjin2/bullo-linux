@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/ath10k/ath10k_pci.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ath/ath10k/ath10k_pci.ko drivers/net/wireless/ath/ath10k/ath10k_pci.o drivers/net/wireless/ath/ath10k/ath10k_pci.mod.o;  true

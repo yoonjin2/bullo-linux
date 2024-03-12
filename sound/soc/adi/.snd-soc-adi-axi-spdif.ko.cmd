@@ -1,0 +1,1 @@
+savedcmd_sound/soc/adi/snd-soc-adi-axi-spdif.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/adi/snd-soc-adi-axi-spdif.ko sound/soc/adi/snd-soc-adi-axi-spdif.o sound/soc/adi/snd-soc-adi-axi-spdif.mod.o;  true

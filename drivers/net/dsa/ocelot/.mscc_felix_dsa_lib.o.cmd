@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/ocelot/mscc_felix_dsa_lib.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/dsa/ocelot/mscc_felix_dsa_lib.o @drivers/net/dsa/ocelot/mscc_felix_dsa_lib.mod 

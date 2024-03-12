@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-pcf85063.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-pcf85063.ko drivers/rtc/rtc-pcf85063.o drivers/rtc/rtc-pcf85063.mod.o;  true

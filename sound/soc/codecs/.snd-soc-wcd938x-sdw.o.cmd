@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-wcd938x-sdw.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/codecs/snd-soc-wcd938x-sdw.o @sound/soc/codecs/snd-soc-wcd938x-sdw.mod 

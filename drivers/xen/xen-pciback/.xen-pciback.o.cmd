@@ -1,0 +1,1 @@
+savedcmd_drivers/xen/xen-pciback/xen-pciback.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/xen/xen-pciback/xen-pciback.o @drivers/xen/xen-pciback/xen-pciback.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/i2c/modules.order := {   echo drivers/media/i2c/imx219.o;   echo drivers/media/i2c/imx412.o;   echo drivers/media/i2c/ir-kbd-i2c.o;   echo drivers/media/i2c/ov5640.o;   echo drivers/media/i2c/ov5645.o; :; } > drivers/media/i2c/modules.order

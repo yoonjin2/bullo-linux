@@ -1,0 +1,1 @@
+savedcmd_sound/soc/fsl/imx-pcm-dma.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/fsl/imx-pcm-dma.ko sound/soc/fsl/imx-pcm-dma.o sound/soc/fsl/imx-pcm-dma.mod.o;  true

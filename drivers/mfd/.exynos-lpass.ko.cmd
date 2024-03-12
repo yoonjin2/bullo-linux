@@ -1,0 +1,1 @@
+savedcmd_drivers/mfd/exynos-lpass.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mfd/exynos-lpass.ko drivers/mfd/exynos-lpass.o drivers/mfd/exynos-lpass.mod.o;  true

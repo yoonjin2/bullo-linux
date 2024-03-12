@@ -1,0 +1,1 @@
+savedcmd_drivers/video/backlight/lp855x_bl.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/lp855x_bl.ko drivers/video/backlight/lp855x_bl.o drivers/video/backlight/lp855x_bl.mod.o;  true

@@ -1,0 +1,49 @@
+!<thin>
+//                                              374       `
+soc-core.o/
+soc-dapm.o/
+soc-jack.o/
+soc-utils.o/
+soc-dai.o/
+soc-component.o/
+soc-pcm.o/
+soc-devres.o/
+soc-ops.o/
+soc-link.o/
+soc-card.o/
+soc-topology.o/
+soc-generic-dmaengine-pcm.o/
+soc-compress.o/
+codecs/cs42l42.o/
+codecs/cs42l83-i2c.o/
+codecs/cs42l84.o/
+codecs/tas2764.o/
+codecs/tas2770.o/
+generic/simple-card-utils.o/
+apple/mca.o/
+apple/macaudio.o/
+samsung/dmaengine.o/
+
+/0              0           0     0     644     90856     `
+/12             0           0     0     644     101952    `
+/24             0           0     0     644     13808     `
+/36             0           0     0     644     9872      `
+/49             0           0     0     644     30480     `
+/60             0           0     0     644     49800     `
+/77             0           0     0     644     121536    `
+/88             0           0     0     644     6720      `
+/102            0           0     0     644     34944     `
+/113            0           0     0     644     7536      `
+/125            0           0     0     644     11040     `
+/137            0           0     0     644     35760     `
+/153            0           0     0     644     18432     `
+/182            0           0     0     644     20736     `
+/198            0           0     0     644     61344     `
+/216            0           0     0     644     8048      `
+/238            0           0     0     644     33032     `
+/256            0           0     0     644     24832     `
+/274            0           0     0     644     20784     `
+/292            0           0     0     644     35384     `
+/321            0           0     0     644     25392     `
+/334            0           0     0     644     43112     `
+/352            0           0     0     644     3088      `

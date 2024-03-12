@@ -1,0 +1,1 @@
+savedcmd_drivers/input/misc/built-in.a := rm -f drivers/input/misc/built-in.a;  printf "drivers/input/misc/%s " hisi_powerkey.o macsmc-hid.o pm8941-pwrkey.o xen-kbdfront.o | xargs ar cDPrST drivers/input/misc/built-in.a

@@ -1,0 +1,6 @@
+drivers/acpi/acpi_ipmi.o
+drivers/acpi/video.o
+drivers/acpi/acpi_tad.o
+drivers/acpi/pfr_update.o
+drivers/acpi/pfr_telemetry.o
+drivers/acpi/acpi_configfs.o

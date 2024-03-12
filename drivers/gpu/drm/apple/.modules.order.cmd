@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/apple/modules.order := {   echo drivers/gpu/drm/apple/appledrm.o;   echo drivers/gpu/drm/apple/apple_dcp.o;   echo drivers/gpu/drm/apple/apple_piodma.o; :; } > drivers/gpu/drm/apple/modules.order

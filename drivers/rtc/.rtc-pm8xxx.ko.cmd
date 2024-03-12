@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-pm8xxx.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-pm8xxx.ko drivers/rtc/rtc-pm8xxx.o drivers/rtc/rtc-pm8xxx.mod.o;  true

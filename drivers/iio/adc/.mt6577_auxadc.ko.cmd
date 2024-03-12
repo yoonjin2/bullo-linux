@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/adc/mt6577_auxadc.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/mt6577_auxadc.ko drivers/iio/adc/mt6577_auxadc.o drivers/iio/adc/mt6577_auxadc.mod.o;  true

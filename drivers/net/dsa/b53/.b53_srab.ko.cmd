@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/b53/b53_srab.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/b53/b53_srab.ko drivers/net/dsa/b53/b53_srab.o drivers/net/dsa/b53/b53_srab.mod.o;  true

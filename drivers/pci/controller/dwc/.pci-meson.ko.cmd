@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/controller/dwc/pci-meson.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/pci/controller/dwc/pci-meson.ko drivers/pci/controller/dwc/pci-meson.o drivers/pci/controller/dwc/pci-meson.mod.o;  true

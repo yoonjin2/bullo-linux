@@ -1,0 +1,1 @@
+savedcmd_drivers/fpga/altera-cvp.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/fpga/altera-cvp.ko drivers/fpga/altera-cvp.o drivers/fpga/altera-cvp.mod.o;  true

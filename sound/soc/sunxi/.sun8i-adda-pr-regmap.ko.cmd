@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sunxi/sun8i-adda-pr-regmap.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/sunxi/sun8i-adda-pr-regmap.ko sound/soc/sunxi/sun8i-adda-pr-regmap.o sound/soc/sunxi/sun8i-adda-pr-regmap.mod.o;  true

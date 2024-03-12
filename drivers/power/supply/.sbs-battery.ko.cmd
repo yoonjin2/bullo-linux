@@ -1,0 +1,1 @@
+savedcmd_drivers/power/supply/sbs-battery.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/sbs-battery.ko drivers/power/supply/sbs-battery.o drivers/power/supply/sbs-battery.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/crypto/hisilicon/zip/hisi_zip.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/crypto/hisilicon/zip/hisi_zip.o @drivers/crypto/hisilicon/zip/hisi_zip.mod 

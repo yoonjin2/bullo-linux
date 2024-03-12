@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-fsl-ftm-alarm.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-fsl-ftm-alarm.ko drivers/rtc/rtc-fsl-ftm-alarm.o drivers/rtc/rtc-fsl-ftm-alarm.mod.o;  true

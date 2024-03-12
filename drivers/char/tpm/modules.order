@@ -1,0 +1,4 @@
+drivers/char/tpm/tpm_tis_core.o
+drivers/char/tpm/tpm_tis.o
+drivers/char/tpm/tpm_tis_spi.o
+drivers/char/tpm/tpm_tis_i2c_cr50.o

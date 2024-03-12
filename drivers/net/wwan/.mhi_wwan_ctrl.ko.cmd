@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wwan/mhi_wwan_ctrl.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wwan/mhi_wwan_ctrl.ko drivers/net/wwan/mhi_wwan_ctrl.o drivers/net/wwan/mhi_wwan_ctrl.mod.o;  true

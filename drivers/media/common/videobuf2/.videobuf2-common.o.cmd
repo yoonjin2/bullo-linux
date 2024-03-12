@@ -1,0 +1,1 @@
+savedcmd_drivers/media/common/videobuf2/videobuf2-common.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/common/videobuf2/videobuf2-common.o @drivers/media/common/videobuf2/videobuf2-common.mod 

@@ -1,0 +1,3 @@
+drivers/reset/reset-berlin.o
+drivers/reset/reset-meson-audio-arb.o
+drivers/reset/reset-qcom-pdc.o

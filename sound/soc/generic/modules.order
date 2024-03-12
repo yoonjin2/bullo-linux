@@ -1,0 +1,3 @@
+sound/soc/generic/snd-soc-simple-card.o
+sound/soc/generic/snd-soc-audio-graph-card.o
+sound/soc/generic/snd-soc-audio-graph-card2.o

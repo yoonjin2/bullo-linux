@@ -1,0 +1,1 @@
+savedcmd_drivers/xen/xen-pciback/xen-pciback.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/xen/xen-pciback/xen-pciback.ko drivers/xen/xen-pciback/xen-pciback.o drivers/xen/xen-pciback/xen-pciback.mod.o;  true

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/jpeg/mtk_jpeg.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/mediatek/jpeg/mtk_jpeg.o @drivers/media/platform/mediatek/jpeg/mtk_jpeg.mod 

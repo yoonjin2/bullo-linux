@@ -1,0 +1,1 @@
+savedcmd_sound/soc/fsl/snd-soc-imx-audmix.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/fsl/snd-soc-imx-audmix.o @sound/soc/fsl/snd-soc-imx-audmix.mod 
