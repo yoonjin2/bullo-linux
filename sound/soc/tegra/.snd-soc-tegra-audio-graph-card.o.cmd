@@ -1,1 +1,0 @@
-savedcmd_sound/soc/tegra/snd-soc-tegra-audio-graph-card.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/tegra/snd-soc-tegra-audio-graph-card.o @sound/soc/tegra/snd-soc-tegra-audio-graph-card.mod 

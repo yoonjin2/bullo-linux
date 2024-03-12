@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/renesas/rcar-vin/rcar-vin.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/renesas/rcar-vin/rcar-vin.ko drivers/media/platform/renesas/rcar-vin/rcar-vin.o drivers/media/platform/renesas/rcar-vin/rcar-vin.mod.o;  true

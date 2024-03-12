@@ -1,1 +1,0 @@
-savedcmd_drivers/input/keyboard/snvs_pwrkey.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/snvs_pwrkey.ko drivers/input/keyboard/snvs_pwrkey.o drivers/input/keyboard/snvs_pwrkey.mod.o;  true

@@ -1,9 +1,0 @@
-lib/crypto/libchacha.o
-lib/crypto/libarc4.o
-lib/crypto/libcurve25519-generic.o
-lib/crypto/libdes.o
-lib/crypto/libsha256.o
-lib/zstd/zstd_compress.o
-lib/crc-ccitt.o
-lib/libcrc32c.o
-lib/raid6/raid6_pq.o

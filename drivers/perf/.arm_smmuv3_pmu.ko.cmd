@@ -1,1 +1,0 @@
-savedcmd_drivers/perf/arm_smmuv3_pmu.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/perf/arm_smmuv3_pmu.ko drivers/perf/arm_smmuv3_pmu.o drivers/perf/arm_smmuv3_pmu.mod.o;  true

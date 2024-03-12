@@ -1,1 +1,0 @@
-savedcmd_drivers/interconnect/imx/imx8mq-interconnect.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/interconnect/imx/imx8mq-interconnect.ko drivers/interconnect/imx/imx8mq-interconnect.o drivers/interconnect/imx/imx8mq-interconnect.mod.o;  true

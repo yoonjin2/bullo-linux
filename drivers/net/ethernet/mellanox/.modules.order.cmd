@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/mellanox/modules.order := {   cat drivers/net/ethernet/mellanox/mlx4/modules.order;   cat drivers/net/ethernet/mellanox/mlx5/core/modules.order; :; } > drivers/net/ethernet/mellanox/modules.order

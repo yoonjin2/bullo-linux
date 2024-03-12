@@ -1,4 +1,0 @@
-drivers/net/wireless/mediatek/mt76/mt76.o
-drivers/net/wireless/mediatek/mt76/mt76-connac-lib.o
-drivers/net/wireless/mediatek/mt76/mt7921/mt7921-common.o
-drivers/net/wireless/mediatek/mt76/mt7921/mt7921e.o

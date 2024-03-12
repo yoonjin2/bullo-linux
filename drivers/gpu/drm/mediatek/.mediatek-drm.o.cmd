@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/mediatek/mediatek-drm.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/mediatek/mediatek-drm.o @drivers/gpu/drm/mediatek/mediatek-drm.mod 

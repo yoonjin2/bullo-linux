@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/imu/st_lsm6dsx/st_lsm6dsx.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/imu/st_lsm6dsx/st_lsm6dsx.ko drivers/iio/imu/st_lsm6dsx/st_lsm6dsx.o drivers/iio/imu/st_lsm6dsx/st_lsm6dsx.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/max17042_battery.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/max17042_battery.ko drivers/power/supply/max17042_battery.o drivers/power/supply/max17042_battery.mod.o;  true

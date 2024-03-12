@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wwan/wwan.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wwan/wwan.ko drivers/net/wwan/wwan.o drivers/net/wwan/wwan.mod.o;  true

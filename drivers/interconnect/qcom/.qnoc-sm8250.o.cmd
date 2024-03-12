@@ -1,1 +1,0 @@
-savedcmd_drivers/interconnect/qcom/qnoc-sm8250.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/interconnect/qcom/qnoc-sm8250.o @drivers/interconnect/qcom/qnoc-sm8250.mod 

@@ -1,1 +1,0 @@
-savedcmd_sound/soc/rockchip/snd-soc-rk3399-gru-sound.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/rockchip/snd-soc-rk3399-gru-sound.o @sound/soc/rockchip/snd-soc-rk3399-gru-sound.mod 

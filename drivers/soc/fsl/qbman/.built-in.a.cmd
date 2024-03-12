@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/fsl/qbman/built-in.a := rm -f drivers/soc/fsl/qbman/built-in.a;  printf "drivers/soc/fsl/qbman/%s " bman_ccsr.o qman_ccsr.o bman_portal.o qman_portal.o bman.o qman.o dpaa_sys.o | xargs ar cDPrST drivers/soc/fsl/qbman/built-in.a

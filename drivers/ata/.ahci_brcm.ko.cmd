@@ -1,1 +1,0 @@
-savedcmd_drivers/ata/ahci_brcm.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/ata/ahci_brcm.ko drivers/ata/ahci_brcm.o drivers/ata/ahci_brcm.mod.o;  true

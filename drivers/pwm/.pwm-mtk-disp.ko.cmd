@@ -1,1 +1,0 @@
-savedcmd_drivers/pwm/pwm-mtk-disp.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-mtk-disp.ko drivers/pwm/pwm-mtk-disp.o drivers/pwm/pwm-mtk-disp.mod.o;  true

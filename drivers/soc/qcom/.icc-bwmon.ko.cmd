@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/qcom/icc-bwmon.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/soc/qcom/icc-bwmon.ko drivers/soc/qcom/icc-bwmon.o drivers/soc/qcom/icc-bwmon.mod.o;  true

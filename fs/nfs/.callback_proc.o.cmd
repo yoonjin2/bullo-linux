@@ -1,4 +1,4 @@
-savedcmd_fs/nfs/callback_proc.o := gcc -Wp,-MMD,fs/nfs/.callback_proc.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-dangling-pointer -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -falign-functions=4 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1168  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum    -DKBUILD_MODFILE='"fs/nfs/nfsv4"' -DKBUILD_BASENAME='"callback_proc"' -DKBUILD_MODNAME='"nfsv4"' -D__KBUILD_MODNAME=kmod_nfsv4 -c -o fs/nfs/callback_proc.o fs/nfs/callback_proc.c  
+savedcmd_fs/nfs/callback_proc.o := gcc -Wp,-MMD,fs/nfs/.callback_proc.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Os -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=2 -falign-functions=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=2016  -DMODULE  -DKBUILD_BASENAME='"callback_proc"' -DKBUILD_MODNAME='"nfsv4"' -D__KBUILD_MODNAME=kmod_nfsv4 -c -o fs/nfs/callback_proc.o fs/nfs/callback_proc.c  
 
 source_fs/nfs/callback_proc.o := fs/nfs/callback_proc.c
 
@@ -200,6 +200,12 @@ deps_fs/nfs/callback_proc.o := \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
+  include/linux/dynamic_debug.h \
+    $(wildcard include/config/JUMP_LABEL) \
+  include/linux/jump_label.h \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
   include/linux/limits.h \
   include/uapi/linux/limits.h \
   include/vdso/limits.h \
@@ -246,11 +252,6 @@ deps_fs/nfs/callback_proc.o := \
   include/linux/kasan-enabled.h \
     $(wildcard include/config/KASAN) \
   include/linux/static_key.h \
-  include/linux/jump_label.h \
-    $(wildcard include/config/JUMP_LABEL) \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
   arch/arm64/include/asm/cputype.h \
   arch/arm64/include/asm/sysreg.h \
     $(wildcard include/config/BROKEN_GAS_INST) \
@@ -332,6 +333,7 @@ deps_fs/nfs/callback_proc.o := \
   include/uapi/linux/string.h \
   arch/arm64/include/asm/string.h \
     $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
+  include/linux/fortify-string.h \
   include/linux/gfp_types.h \
   include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
@@ -644,6 +646,11 @@ deps_fs/nfs/callback_proc.o := \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   arch/arm64/include/asm/mmu.h \
@@ -664,6 +671,7 @@ deps_fs/nfs/callback_proc.o := \
   include/uapi/linux/netfilter/nf_conntrack_common.h \
   include/linux/netfilter/nf_conntrack_sctp.h \
   include/uapi/linux/netfilter/nf_conntrack_sctp.h \
+  include/net/netns/flow_table.h \
   include/net/netns/nftables.h \
   include/net/netns/xfrm.h \
   include/uapi/linux/xfrm.h \
@@ -918,6 +926,13 @@ deps_fs/nfs/callback_proc.o := \
   arch/arm64/include/asm/stat.h \
   arch/arm64/include/generated/uapi/asm/stat.h \
   include/uapi/asm-generic/stat.h \
+  arch/arm64/include/asm/compat.h \
+  include/asm-generic/compat.h \
+    $(wildcard include/config/COMPAT_FOR_U64_ALIGNMENT) \
+  include/linux/sched/task_stack.h \
+    $(wildcard include/config/STACK_GROWSUP) \
+    $(wildcard include/config/DEBUG_STACK_USAGE) \
+  include/uapi/linux/magic.h \
   include/uapi/linux/stat.h \
   include/linux/list_lru.h \
     $(wildcard include/config/MEMCG_KMEM) \
@@ -939,7 +954,6 @@ deps_fs/nfs/callback_proc.o := \
     $(wildcard include/config/SCHED_AUTOGROUP) \
     $(wildcard include/config/BSD_PROCESS_ACCT) \
     $(wildcard include/config/TASKSTATS) \
-    $(wildcard include/config/STACK_GROWSUP) \
   include/linux/signal.h \
     $(wildcard include/config/DYNAMIC_SIGFRAME) \
   include/linux/sched/jobctl.h \
@@ -1015,7 +1029,6 @@ deps_fs/nfs/callback_proc.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/KPROBES_SANITY_TEST) \
     $(wildcard include/config/OPTPROBES) \
@@ -1053,7 +1066,6 @@ deps_fs/nfs/callback_proc.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1235,16 +1247,12 @@ deps_fs/nfs/callback_proc.o := \
   include/uapi/linux/if.h \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
-  arch/arm64/include/asm/compat.h \
-  include/asm-generic/compat.h \
-    $(wildcard include/config/COMPAT_FOR_U64_ALIGNMENT) \
   arch/arm64/include/asm/syscall_wrapper.h \
   include/linux/freelist.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1321,7 +1329,6 @@ deps_fs/nfs/callback_proc.o := \
     $(wildcard include/config/NFS_FSCACHE) \
     $(wildcard include/config/NFS_V4_SECURITY_LABEL) \
   include/uapi/linux/nfs_fs.h \
-  include/uapi/linux/magic.h \
   include/linux/pagemap.h \
   include/linux/hugetlb_inline.h \
   include/linux/sunrpc/debug.h \
@@ -1407,6 +1414,8 @@ deps_fs/nfs/callback_proc.o := \
   include/asm-generic/delay.h \
   include/linux/prefetch.h \
   include/linux/dynamic_queue_limits.h \
+  include/net/dcbnl.h \
+  include/uapi/linux/dcbnl.h \
   include/net/netprio_cgroup.h \
   include/linux/cgroup.h \
     $(wildcard include/config/DEBUG_CGROUP_REF) \
@@ -1492,6 +1501,7 @@ deps_fs/nfs/callback_proc.o := \
   include/net/rtnetlink.h \
   include/net/netlink.h \
   include/net/tcp_states.h \
+  include/linux/net_tstamp.h \
   include/uapi/linux/net_tstamp.h \
   include/net/l3mdev.h \
   include/net/fib_rules.h \

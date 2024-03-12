@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/rcar-du/rcar-du-drm.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/rcar-du/rcar-du-drm.o @drivers/gpu/drm/rcar-du/rcar-du-drm.mod 

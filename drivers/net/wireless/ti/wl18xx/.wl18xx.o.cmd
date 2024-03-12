@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/ti/wl18xx/wl18xx.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/ti/wl18xx/wl18xx.o @drivers/net/wireless/ti/wl18xx/wl18xx.mod 

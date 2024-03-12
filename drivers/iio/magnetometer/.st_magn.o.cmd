@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/magnetometer/st_magn.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/iio/magnetometer/st_magn.o @drivers/iio/magnetometer/st_magn.mod 

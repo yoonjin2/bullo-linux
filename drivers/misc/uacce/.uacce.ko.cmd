@@ -1,1 +1,0 @@
-savedcmd_drivers/misc/uacce/uacce.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/misc/uacce/uacce.ko drivers/misc/uacce/uacce.o drivers/misc/uacce/uacce.mod.o;  true

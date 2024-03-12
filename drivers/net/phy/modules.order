@@ -1,9 +1,0 @@
-drivers/net/phy/ax88796b.o
-drivers/net/phy/bcm54140.o
-drivers/net/phy/bcm7xxx.o
-drivers/net/phy/bcm-phy-lib.o
-drivers/net/phy/broadcom.o
-drivers/net/phy/marvell.o
-drivers/net/phy/meson-gxl.o
-drivers/net/phy/microchip.o
-drivers/net/phy/smsc.o

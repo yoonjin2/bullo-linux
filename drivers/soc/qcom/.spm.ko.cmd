@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/qcom/spm.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/soc/qcom/spm.ko drivers/soc/qcom/spm.o drivers/soc/qcom/spm.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/gadget/function/usb_f_ecm_subset.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/usb/gadget/function/usb_f_ecm_subset.o @drivers/usb/gadget/function/usb_f_ecm_subset.mod 

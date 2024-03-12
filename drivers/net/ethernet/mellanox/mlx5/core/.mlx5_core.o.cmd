@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.o @drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.mod 

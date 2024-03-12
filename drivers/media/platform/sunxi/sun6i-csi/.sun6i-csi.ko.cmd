@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.ko drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.o drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/fpga/altera-freeze-bridge.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/fpga/altera-freeze-bridge.ko drivers/fpga/altera-freeze-bridge.o drivers/fpga/altera-freeze-bridge.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/acpi/acpi_configfs.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/acpi/acpi_configfs.ko drivers/acpi/acpi_configfs.o drivers/acpi/acpi_configfs.mod.o;  true

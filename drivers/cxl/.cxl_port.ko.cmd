@@ -1,1 +1,0 @@
-savedcmd_drivers/cxl/cxl_port.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/cxl/cxl_port.ko drivers/cxl/cxl_port.o drivers/cxl/cxl_port.mod.o;  true

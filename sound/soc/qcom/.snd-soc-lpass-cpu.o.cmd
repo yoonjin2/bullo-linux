@@ -1,1 +1,0 @@
-savedcmd_sound/soc/qcom/snd-soc-lpass-cpu.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/qcom/snd-soc-lpass-cpu.o @sound/soc/qcom/snd-soc-lpass-cpu.mod 

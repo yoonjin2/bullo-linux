@@ -1,1 +1,0 @@
-savedcmd_drivers/dma/qcom/built-in.a := rm -f drivers/dma/qcom/built-in.a;  printf "drivers/dma/qcom/%s " bam_dma.o hidma_mgmt.o hidma_mgmt_sys.o hidma_ll.o hidma.o hidma_dbg.o | xargs ar cDPrST drivers/dma/qcom/built-in.a

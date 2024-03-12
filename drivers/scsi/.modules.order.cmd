@@ -1,1 +1,0 @@
-savedcmd_drivers/scsi/modules.order := {   cat drivers/scsi/libsas/modules.order;   cat drivers/scsi/megaraid/modules.order;   cat drivers/scsi/hisi_sas/modules.order;   echo drivers/scsi/raid_class.o;   echo drivers/scsi/iscsi_boot_sysfs.o;   cat drivers/scsi/mpt3sas/modules.order; :; } > drivers/scsi/modules.order

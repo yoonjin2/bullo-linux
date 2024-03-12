@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-alink-dtu-m.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-alink-dtu-m.ko drivers/media/rc/keymaps/rc-alink-dtu-m.o drivers/media/rc/keymaps/rc-alink-dtu-m.mod.o;  true

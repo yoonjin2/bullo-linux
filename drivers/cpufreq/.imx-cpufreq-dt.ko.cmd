@@ -1,1 +1,0 @@
-savedcmd_drivers/cpufreq/imx-cpufreq-dt.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/cpufreq/imx-cpufreq-dt.ko drivers/cpufreq/imx-cpufreq-dt.o drivers/cpufreq/imx-cpufreq-dt.mod.o;  true

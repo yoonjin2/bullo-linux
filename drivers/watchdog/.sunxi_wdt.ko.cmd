@@ -1,1 +1,0 @@
-savedcmd_drivers/watchdog/sunxi_wdt.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/sunxi_wdt.ko drivers/watchdog/sunxi_wdt.o drivers/watchdog/sunxi_wdt.mod.o;  true

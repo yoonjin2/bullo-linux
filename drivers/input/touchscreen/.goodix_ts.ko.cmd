@@ -1,1 +1,0 @@
-savedcmd_drivers/input/touchscreen/goodix_ts.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/goodix_ts.ko drivers/input/touchscreen/goodix_ts.o drivers/input/touchscreen/goodix_ts.mod.o;  true

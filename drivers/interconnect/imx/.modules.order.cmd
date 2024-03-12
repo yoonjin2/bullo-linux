@@ -1,1 +1,0 @@
-savedcmd_drivers/interconnect/imx/modules.order := {   echo drivers/interconnect/imx/imx8mm-interconnect.o;   echo drivers/interconnect/imx/imx8mq-interconnect.o;   echo drivers/interconnect/imx/imx8mn-interconnect.o; :; } > drivers/interconnect/imx/modules.order

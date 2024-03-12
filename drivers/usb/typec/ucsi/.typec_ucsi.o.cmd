@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/typec/ucsi/typec_ucsi.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/usb/typec/ucsi/typec_ucsi.o @drivers/usb/typec/ucsi/typec_ucsi.mod 

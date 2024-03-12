@@ -1,1 +1,0 @@
-savedcmd_lib/crypto/libcurve25519-generic.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o lib/crypto/libcurve25519-generic.ko lib/crypto/libcurve25519-generic.o lib/crypto/libcurve25519-generic.mod.o;  true

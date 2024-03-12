@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/socionext/built-in.a := rm -f drivers/phy/socionext/built-in.a;  printf "drivers/phy/socionext/%s " phy-uniphier-usb2.o phy-uniphier-usb3hs.o phy-uniphier-usb3ss.o phy-uniphier-ahci.o | xargs ar cDPrST drivers/phy/socionext/built-in.a

@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/common/st_sensors/st_sensors.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/common/st_sensors/st_sensors.ko drivers/iio/common/st_sensors/st_sensors.o drivers/iio/common/st_sensors/st_sensors.mod.o;  true

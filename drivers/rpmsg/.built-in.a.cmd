@@ -1,1 +1,0 @@
-savedcmd_drivers/rpmsg/built-in.a := rm -f drivers/rpmsg/built-in.a;  printf "drivers/rpmsg/%s " rpmsg_core.o qcom_glink_native.o qcom_glink_ssr.o qcom_glink_rpm.o qcom_smd.o | xargs ar cDPrST drivers/rpmsg/built-in.a

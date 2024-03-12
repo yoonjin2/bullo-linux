@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/hisilicon/hisi_qm.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/crypto/hisilicon/hisi_qm.ko drivers/crypto/hisilicon/hisi_qm.o drivers/crypto/hisilicon/hisi_qm.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/nvmem/nvmem-rmem.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/nvmem/nvmem-rmem.ko drivers/nvmem/nvmem-rmem.o drivers/nvmem/nvmem-rmem.mod.o;  true

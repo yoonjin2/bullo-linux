@@ -1,1 +1,0 @@
-savedcmd_drivers/hwtracing/coresight/coresight-cpu-debug.mod := printf '%s\n'   coresight-cpu-debug.o | awk '!x[$$0]++ { print("drivers/hwtracing/coresight/"$$0) }' > drivers/hwtracing/coresight/coresight-cpu-debug.mod

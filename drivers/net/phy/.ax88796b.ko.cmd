@@ -1,1 +1,0 @@
-savedcmd_drivers/net/phy/ax88796b.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/ax88796b.ko drivers/net/phy/ax88796b.o drivers/net/phy/ax88796b.mod.o;  true

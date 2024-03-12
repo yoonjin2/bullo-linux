@@ -1,1 +1,0 @@
-savedcmd_drivers/clk/qcom/modules.order := {   echo drivers/clk/qcom/lpass-gfm-sm8250.o;   echo drivers/clk/qcom/dispcc-sc8280xp.o;   echo drivers/clk/qcom/camcc-sdm845.o;   echo drivers/clk/qcom/lpasscc-sdm845.o;   echo drivers/clk/qcom/camcc-sm8250.o;   echo drivers/clk/qcom/dispcc-sm8450.o;   echo drivers/clk/qcom/dispcc-sm8550.o; :; } > drivers/clk/qcom/modules.order

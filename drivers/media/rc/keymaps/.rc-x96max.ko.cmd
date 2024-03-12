@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-x96max.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-x96max.ko drivers/media/rc/keymaps/rc-x96max.o drivers/media/rc/keymaps/rc-x96max.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/samsung/exynos-gsc/exynos-gsc.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/samsung/exynos-gsc/exynos-gsc.o @drivers/media/platform/samsung/exynos-gsc/exynos-gsc.mod 

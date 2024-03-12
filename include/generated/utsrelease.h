@@ -1,1 +1,1 @@
-#define UTS_RELEASE "6.6.3-413.asahi.fc39.aarch64+16k-debug-asahi"
+#define UTS_RELEASE "6.6.3-413.asahi.fc39.aarch64+16k-debug-asahi-g3a20c22c8ca0-dirty"

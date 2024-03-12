@@ -1,1 +1,0 @@
-savedcmd_drivers/media/tuners/mc44s803.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/mc44s803.ko drivers/media/tuners/mc44s803.o drivers/media/tuners/mc44s803.mod.o;  true

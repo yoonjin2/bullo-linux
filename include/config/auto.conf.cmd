@@ -78,9 +78,8 @@ deps_config := \
 	fs/9p/Kconfig \
 	fs/afs/Kconfig \
 	fs/coda/Kconfig \
-	fs/smb/server/Kconfig \
-	fs/smb/client/Kconfig \
-	fs/smb/Kconfig \
+	fs/ksmbd/Kconfig \
+	fs/cifs/Kconfig \
 	fs/ceph/Kconfig \
 	net/sunrpc/Kconfig \
 	fs/nfsd/Kconfig \

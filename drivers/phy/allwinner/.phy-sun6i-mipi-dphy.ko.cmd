@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/allwinner/phy-sun6i-mipi-dphy.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/phy/allwinner/phy-sun6i-mipi-dphy.ko drivers/phy/allwinner/phy-sun6i-mipi-dphy.o drivers/phy/allwinner/phy-sun6i-mipi-dphy.mod.o;  true

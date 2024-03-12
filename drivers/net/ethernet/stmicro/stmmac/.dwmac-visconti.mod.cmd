@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-visconti.mod := printf '%s\n'   dwmac-visconti.o | awk '!x[$$0]++ { print("drivers/net/ethernet/stmicro/stmmac/"$$0) }' > drivers/net/ethernet/stmicro/stmmac/dwmac-visconti.mod

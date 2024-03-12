@@ -1,1 +1,0 @@
-savedcmd_sound/soc/mediatek/mt8192/snd-soc-mt8192-afe.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/mediatek/mt8192/snd-soc-mt8192-afe.ko sound/soc/mediatek/mt8192/snd-soc-mt8192-afe.o sound/soc/mediatek/mt8192/snd-soc-mt8192-afe.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/thermal/qcom/qcom-spmi-adc-tm5.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/thermal/qcom/qcom-spmi-adc-tm5.ko drivers/thermal/qcom/qcom-spmi-adc-tm5.o drivers/thermal/qcom/qcom-spmi-adc-tm5.mod.o;  true

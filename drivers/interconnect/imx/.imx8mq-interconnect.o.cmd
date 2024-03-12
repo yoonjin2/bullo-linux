@@ -1,1 +1,0 @@
-savedcmd_drivers/interconnect/imx/imx8mq-interconnect.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/interconnect/imx/imx8mq-interconnect.o @drivers/interconnect/imx/imx8mq-interconnect.mod 

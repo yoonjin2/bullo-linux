@@ -1,1 +1,0 @@
-savedcmd_drivers/irqchip/irq-imx-mu-msi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/irqchip/irq-imx-mu-msi.ko drivers/irqchip/irq-imx-mu-msi.o drivers/irqchip/irq-imx-mu-msi.mod.o;  true

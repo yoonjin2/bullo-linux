@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/arm/display/komeda/komeda.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/arm/display/komeda/komeda.ko drivers/gpu/drm/arm/display/komeda/komeda.o drivers/gpu/drm/arm/display/komeda/komeda.mod.o;  true

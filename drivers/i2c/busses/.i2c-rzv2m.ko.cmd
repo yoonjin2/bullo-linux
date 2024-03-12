@@ -1,1 +1,0 @@
-savedcmd_drivers/i2c/busses/i2c-rzv2m.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-rzv2m.ko drivers/i2c/busses/i2c-rzv2m.o drivers/i2c/busses/i2c-rzv2m.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/reset/modules.order := {   cat drivers/reset/hisilicon/modules.order;   cat drivers/reset/tegra/modules.order;   echo drivers/reset/reset-berlin.o;   echo drivers/reset/reset-meson-audio-arb.o;   echo drivers/reset/reset-qcom-pdc.o; :; } > drivers/reset/modules.order

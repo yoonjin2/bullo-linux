@@ -1,1 +1,0 @@
-savedcmd_drivers/pwm/pwm-bcm2835.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-bcm2835.ko drivers/pwm/pwm-bcm2835.o drivers/pwm/pwm-bcm2835.mod.o;  true

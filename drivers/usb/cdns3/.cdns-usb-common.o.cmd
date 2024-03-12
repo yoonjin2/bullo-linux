@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/cdns3/cdns-usb-common.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/usb/cdns3/cdns-usb-common.o @drivers/usb/cdns3/cdns-usb-common.mod 

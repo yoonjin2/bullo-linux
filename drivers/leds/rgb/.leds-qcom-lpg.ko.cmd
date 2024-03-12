@@ -1,1 +1,0 @@
-savedcmd_drivers/leds/rgb/leds-qcom-lpg.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/leds/rgb/leds-qcom-lpg.ko drivers/leds/rgb/leds-qcom-lpg.o drivers/leds/rgb/leds-qcom-lpg.mod.o;  true

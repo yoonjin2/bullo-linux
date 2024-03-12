@@ -1,1 +1,0 @@
-savedcmd_drivers/memory/tegra/built-in.a := rm -f drivers/memory/tegra/built-in.a;  printf "drivers/memory/tegra/%s " mc.o tegra124.o tegra210.o tegra186.o tegra194.o tegra234.o tegra20-emc.o tegra30-emc.o tegra124-emc.o tegra186-emc.o | xargs ar cDPrST drivers/memory/tegra/built-in.a

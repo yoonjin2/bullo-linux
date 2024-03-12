@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mt76.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/mediatek/mt76/mt76.ko drivers/net/wireless/mediatek/mt76/mt76.o drivers/net/wireless/mediatek/mt76/mt76.mod.o;  true

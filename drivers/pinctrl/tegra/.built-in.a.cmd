@@ -1,1 +1,0 @@
-savedcmd_drivers/pinctrl/tegra/built-in.a := rm -f drivers/pinctrl/tegra/built-in.a;  printf "drivers/pinctrl/tegra/%s " pinctrl-tegra.o pinctrl-tegra124.o pinctrl-tegra210.o pinctrl-tegra194.o pinctrl-tegra-xusb.o | xargs ar cDPrST drivers/pinctrl/tegra/built-in.a

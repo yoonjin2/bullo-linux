@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/adc/qcom-spmi-adc5.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/qcom-spmi-adc5.ko drivers/iio/adc/qcom-spmi-adc5.o drivers/iio/adc/qcom-spmi-adc5.mod.o;  true

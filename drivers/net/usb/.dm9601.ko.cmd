@@ -1,1 +1,0 @@
-savedcmd_drivers/net/usb/dm9601.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/dm9601.ko drivers/net/usb/dm9601.o drivers/net/usb/dm9601.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/broadcom/genet/genet.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/ethernet/broadcom/genet/genet.o @drivers/net/ethernet/broadcom/genet/genet.mod 

@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/tegra/built-in.a := rm -f drivers/soc/tegra/built-in.a;  printf "drivers/soc/tegra/%s " fuse/built-in.a cbb/built-in.a common.o flowctrl.o pmc.o powergate-bpmp.o ari-tegra186.o | xargs ar cDPrST drivers/soc/tegra/built-in.a

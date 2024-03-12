@@ -1,1 +1,0 @@
-savedcmd_drivers/net/can/spi/mcp251xfd/mcp251xfd.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/can/spi/mcp251xfd/mcp251xfd.ko drivers/net/can/spi/mcp251xfd/mcp251xfd.o drivers/net/can/spi/mcp251xfd/mcp251xfd.mod.o;  true

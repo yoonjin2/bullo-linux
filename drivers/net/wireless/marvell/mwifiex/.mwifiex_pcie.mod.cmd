@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.mod := printf '%s\n'   pcie.o pcie_quirks.o | awk '!x[$$0]++ { print("drivers/net/wireless/marvell/mwifiex/"$$0) }' > drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.mod

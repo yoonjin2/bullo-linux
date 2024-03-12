@@ -1,1 +1,1 @@
-savedcmd_fs/squashfs/modules.order := {  :; } > fs/squashfs/modules.order
+savedcmd_fs/squashfs/modules.order := {   echo fs/squashfs/squashfs.o; :; } > fs/squashfs/modules.order

@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/hisilicon/hpre/hisi_hpre.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/crypto/hisilicon/hpre/hisi_hpre.ko drivers/crypto/hisilicon/hpre/hisi_hpre.o drivers/crypto/hisilicon/hpre/hisi_hpre.mod.o;  true

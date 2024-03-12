@@ -1,1 +1,0 @@
-savedcmd_sound/soc/sunxi/sun4i-i2s.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/sunxi/sun4i-i2s.ko sound/soc/sunxi/sun4i-i2s.o sound/soc/sunxi/sun4i-i2s.mod.o;  true

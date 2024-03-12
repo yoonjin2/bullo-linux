@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o @drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.mod 

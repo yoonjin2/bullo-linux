@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/meson-ir.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/meson-ir.ko drivers/media/rc/meson-ir.o drivers/media/rc/meson-ir.mod.o;  true

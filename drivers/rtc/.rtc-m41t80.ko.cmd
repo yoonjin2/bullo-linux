@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-m41t80.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-m41t80.ko drivers/rtc/rtc-m41t80.o drivers/rtc/rtc-m41t80.mod.o;  true

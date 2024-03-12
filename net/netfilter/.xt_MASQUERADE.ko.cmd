@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/xt_MASQUERADE.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_MASQUERADE.ko net/netfilter/xt_MASQUERADE.o net/netfilter/xt_MASQUERADE.mod.o;  true

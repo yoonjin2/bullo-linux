@@ -1,1 +1,0 @@
-savedcmd_drivers/nvdimm/libnvdimm.mod := printf '%s\n'   core.o bus.o dimm_devs.o nd_perf.o dimm.o region_devs.o region.o namespace_devs.o label.o badrange.o claim.o btt_devs.o | awk '!x[$$0]++ { print("drivers/nvdimm/"$$0) }' > drivers/nvdimm/libnvdimm.mod

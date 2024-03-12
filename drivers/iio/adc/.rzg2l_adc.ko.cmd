@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/adc/rzg2l_adc.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/rzg2l_adc.ko drivers/iio/adc/rzg2l_adc.o drivers/iio/adc/rzg2l_adc.mod.o;  true

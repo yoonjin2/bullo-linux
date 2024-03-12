@@ -1,1 +1,0 @@
-savedcmd_sound/soc/tegra/snd-soc-tegra210-amx.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/tegra/snd-soc-tegra210-amx.o @sound/soc/tegra/snd-soc-tegra210-amx.mod 

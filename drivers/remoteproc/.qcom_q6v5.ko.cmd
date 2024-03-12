@@ -1,1 +1,0 @@
-savedcmd_drivers/remoteproc/qcom_q6v5.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/remoteproc/qcom_q6v5.ko drivers/remoteproc/qcom_q6v5.o drivers/remoteproc/qcom_q6v5.mod.o;  true

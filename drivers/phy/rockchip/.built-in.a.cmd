@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/rockchip/built-in.a := rm -f drivers/phy/rockchip/built-in.a;  printf "drivers/phy/rockchip/%s " phy-rockchip-emmc.o phy-rockchip-inno-usb2.o phy-rockchip-typec.o | xargs ar cDPrST drivers/phy/rockchip/built-in.a

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/common/videobuf2/videobuf2-memops.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/common/videobuf2/videobuf2-memops.ko drivers/media/common/videobuf2/videobuf2-memops.o drivers/media/common/videobuf2/videobuf2-memops.mod.o;  true

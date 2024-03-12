@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/hisilicon/sec2/hisi_sec2.mod := printf '%s\n'   sec_main.o sec_crypto.o | awk '!x[$$0]++ { print("drivers/crypto/hisilicon/sec2/"$$0) }' > drivers/crypto/hisilicon/sec2/hisi_sec2.mod

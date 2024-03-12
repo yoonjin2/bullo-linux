@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/modules.order := {   cat drivers/hid/usbhid/modules.order;   cat drivers/hid/spi-hid/modules.order;   cat drivers/hid/dockchannel-hid/modules.order;   echo drivers/hid/hid-multitouch.o;   cat drivers/hid/i2c-hid/modules.order; :; } > drivers/hid/modules.order

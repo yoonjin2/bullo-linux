@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/bcm/bcm_crypto_spu.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/crypto/bcm/bcm_crypto_spu.o @drivers/crypto/bcm/bcm_crypto_spu.mod 

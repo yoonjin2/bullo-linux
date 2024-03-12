@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-gotview7135.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-gotview7135.ko drivers/media/rc/keymaps/rc-gotview7135.o drivers/media/rc/keymaps/rc-gotview7135.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/remoteproc/qcom_wcnss_pil.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/remoteproc/qcom_wcnss_pil.o @drivers/remoteproc/qcom_wcnss_pil.mod 

@@ -1,1 +1,0 @@
-savedcmd_sound/soc/generic/snd-soc-audio-graph-card2.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/generic/snd-soc-audio-graph-card2.ko sound/soc/generic/snd-soc-audio-graph-card2.o sound/soc/generic/snd-soc-audio-graph-card2.mod.o;  true

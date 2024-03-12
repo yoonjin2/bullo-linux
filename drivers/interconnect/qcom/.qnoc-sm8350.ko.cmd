@@ -1,1 +1,0 @@
-savedcmd_drivers/interconnect/qcom/qnoc-sm8350.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/interconnect/qcom/qnoc-sm8350.ko drivers/interconnect/qcom/qnoc-sm8350.o drivers/interconnect/qcom/qnoc-sm8350.mod.o;  true

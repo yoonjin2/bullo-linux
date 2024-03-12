@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/qualcomm/phy-qcom-qmp-pcie.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/phy/qualcomm/phy-qcom-qmp-pcie.ko drivers/phy/qualcomm/phy-qcom-qmp-pcie.o drivers/phy/qualcomm/phy-qcom-qmp-pcie.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/bridge/cadence/cdns-mhdp8546.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/bridge/cadence/cdns-mhdp8546.o @drivers/gpu/drm/bridge/cadence/cdns-mhdp8546.mod 

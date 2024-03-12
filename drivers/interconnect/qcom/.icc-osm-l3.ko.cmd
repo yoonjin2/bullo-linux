@@ -1,1 +1,0 @@
-savedcmd_drivers/interconnect/qcom/icc-osm-l3.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/interconnect/qcom/icc-osm-l3.ko drivers/interconnect/qcom/icc-osm-l3.o drivers/interconnect/qcom/icc-osm-l3.mod.o;  true

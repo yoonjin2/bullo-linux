@@ -1,1 +1,0 @@
-savedcmd_sound/soc/fsl/snd-soc-fsl-sai.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/fsl/snd-soc-fsl-sai.ko sound/soc/fsl/snd-soc-fsl-sai.o sound/soc/fsl/snd-soc-fsl-sai.mod.o;  true

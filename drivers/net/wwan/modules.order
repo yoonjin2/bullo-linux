@@ -1,3 +1,0 @@
-drivers/net/wwan/wwan.o
-drivers/net/wwan/mhi_wwan_ctrl.o
-drivers/net/wwan/mhi_wwan_mbim.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/gpio/gpio-altera.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-altera.ko drivers/gpio/gpio-altera.o drivers/gpio/gpio-altera.mod.o;  true

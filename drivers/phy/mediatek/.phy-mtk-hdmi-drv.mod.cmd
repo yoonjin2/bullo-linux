@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/mediatek/phy-mtk-hdmi-drv.mod := printf '%s\n'   phy-mtk-hdmi.o phy-mtk-hdmi-mt2701.o phy-mtk-hdmi-mt8173.o | awk '!x[$$0]++ { print("drivers/phy/mediatek/"$$0) }' > drivers/phy/mediatek/phy-mtk-hdmi-drv.mod

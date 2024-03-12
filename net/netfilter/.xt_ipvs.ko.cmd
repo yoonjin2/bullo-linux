@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/xt_ipvs.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_ipvs.ko net/netfilter/xt_ipvs.o net/netfilter/xt_ipvs.mod.o;  true

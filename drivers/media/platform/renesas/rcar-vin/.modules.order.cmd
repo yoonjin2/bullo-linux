@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/renesas/rcar-vin/modules.order := {   echo drivers/media/platform/renesas/rcar-vin/rcar-csi2.o;   echo drivers/media/platform/renesas/rcar-vin/rcar-vin.o; :; } > drivers/media/platform/renesas/rcar-vin/modules.order

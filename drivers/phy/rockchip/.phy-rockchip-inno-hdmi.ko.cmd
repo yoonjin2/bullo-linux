@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/rockchip/phy-rockchip-inno-hdmi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/phy/rockchip/phy-rockchip-inno-hdmi.ko drivers/phy/rockchip/phy-rockchip-inno-hdmi.o drivers/phy/rockchip/phy-rockchip-inno-hdmi.mod.o;  true

@@ -1,6 +1,0 @@
-drivers/misc/eeprom/at24.o
-drivers/misc/eeprom/at25.o
-drivers/misc/qcom-coincell.o
-drivers/misc/fastrpc.o
-drivers/misc/pci_endpoint_test.o
-drivers/misc/uacce/uacce.o

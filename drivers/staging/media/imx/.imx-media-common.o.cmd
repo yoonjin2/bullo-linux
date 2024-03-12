@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/media/imx/imx-media-common.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/staging/media/imx/imx-media-common.o @drivers/staging/media/imx/imx-media-common.mod 

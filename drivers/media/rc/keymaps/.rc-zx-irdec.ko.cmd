@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-zx-irdec.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-zx-irdec.ko drivers/media/rc/keymaps/rc-zx-irdec.o drivers/media/rc/keymaps/rc-zx-irdec.mod.o;  true

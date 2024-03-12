@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-gadmei-rm008z.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-gadmei-rm008z.ko drivers/media/rc/keymaps/rc-gadmei-rm008z.o drivers/media/rc/keymaps/rc-gadmei-rm008z.mod.o;  true

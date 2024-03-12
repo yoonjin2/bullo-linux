@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/hisilicon/trng/hisi-trng-v2.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/crypto/hisilicon/trng/hisi-trng-v2.ko drivers/crypto/hisilicon/trng/hisi-trng-v2.o drivers/crypto/hisilicon/trng/hisi-trng-v2.mod.o;  true

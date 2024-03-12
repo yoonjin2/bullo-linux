@@ -1,1 +1,0 @@
-savedcmd_drivers/cpufreq/cpufreq_powersave.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/cpufreq/cpufreq_powersave.ko drivers/cpufreq/cpufreq_powersave.o drivers/cpufreq/cpufreq_powersave.mod.o;  true

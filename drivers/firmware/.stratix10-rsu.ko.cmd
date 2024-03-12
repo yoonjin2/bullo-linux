@@ -1,1 +1,0 @@
-savedcmd_drivers/firmware/stratix10-rsu.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/firmware/stratix10-rsu.ko drivers/firmware/stratix10-rsu.o drivers/firmware/stratix10-rsu.mod.o;  true

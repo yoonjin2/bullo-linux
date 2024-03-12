@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-imx-sc.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-imx-sc.ko drivers/rtc/rtc-imx-sc.o drivers/rtc/rtc-imx-sc.mod.o;  true

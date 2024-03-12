@@ -1,1 +1,0 @@
-savedcmd_drivers/pinctrl/visconti/built-in.a := rm -f drivers/pinctrl/visconti/built-in.a;  printf "drivers/pinctrl/visconti/%s " pinctrl-common.o pinctrl-tmpv7700.o | xargs ar cDPrST drivers/pinctrl/visconti/built-in.a

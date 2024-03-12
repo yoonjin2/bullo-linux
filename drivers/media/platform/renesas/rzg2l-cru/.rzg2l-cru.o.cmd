@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/renesas/rzg2l-cru/rzg2l-cru.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/renesas/rzg2l-cru/rzg2l-cru.o @drivers/media/platform/renesas/rzg2l-cru/rzg2l-cru.mod 

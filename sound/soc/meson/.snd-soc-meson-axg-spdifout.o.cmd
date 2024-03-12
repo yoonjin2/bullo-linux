@@ -1,1 +1,0 @@
-savedcmd_sound/soc/meson/snd-soc-meson-axg-spdifout.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/meson/snd-soc-meson-axg-spdifout.o @sound/soc/meson/snd-soc-meson-axg-spdifout.mod 

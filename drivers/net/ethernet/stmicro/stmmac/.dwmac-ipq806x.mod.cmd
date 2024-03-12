@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-ipq806x.mod := printf '%s\n'   dwmac-ipq806x.o | awk '!x[$$0]++ { print("drivers/net/ethernet/stmicro/stmmac/"$$0) }' > drivers/net/ethernet/stmicro/stmmac/dwmac-ipq806x.mod

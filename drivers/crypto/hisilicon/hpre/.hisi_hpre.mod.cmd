@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/hisilicon/hpre/hisi_hpre.mod := printf '%s\n'   hpre_main.o hpre_crypto.o | awk '!x[$$0]++ { print("drivers/crypto/hisilicon/hpre/"$$0) }' > drivers/crypto/hisilicon/hpre/hisi_hpre.mod

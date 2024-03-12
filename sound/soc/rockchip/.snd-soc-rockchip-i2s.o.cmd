@@ -1,1 +1,0 @@
-savedcmd_sound/soc/rockchip/snd-soc-rockchip-i2s.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/rockchip/snd-soc-rockchip-i2s.o @sound/soc/rockchip/snd-soc-rockchip-i2s.mod 

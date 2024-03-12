@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/modules.order := {   echo drivers/power/supply/sbs-battery.o;   echo drivers/power/supply/max17042_battery.o;   echo drivers/power/supply/mt6360_charger.o;   echo drivers/power/supply/bq25890_charger.o;   echo drivers/power/supply/bq25980_charger.o; :; } > drivers/power/supply/modules.order

@@ -1,1 +1,0 @@
-savedcmd_drivers/fpga/of-fpga-region.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/fpga/of-fpga-region.ko drivers/fpga/of-fpga-region.o drivers/fpga/of-fpga-region.mod.o;  true

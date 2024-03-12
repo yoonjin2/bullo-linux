@@ -1,1 +1,0 @@
-savedcmd_drivers/clk/actions/built-in.a := rm -f drivers/clk/actions/built-in.a;  printf "drivers/clk/actions/%s " owl-common.o owl-gate.o owl-mux.o owl-divider.o owl-factor.o owl-composite.o owl-pll.o owl-reset.o owl-s500.o owl-s700.o owl-s900.o | xargs ar cDPrST drivers/clk/actions/built-in.a

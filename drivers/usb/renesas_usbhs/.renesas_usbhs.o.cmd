@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/renesas_usbhs/renesas_usbhs.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/usb/renesas_usbhs/renesas_usbhs.o @drivers/usb/renesas_usbhs/renesas_usbhs.mod 

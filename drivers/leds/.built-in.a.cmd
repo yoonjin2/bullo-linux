@@ -1,1 +1,0 @@
-savedcmd_drivers/leds/built-in.a := rm -f drivers/leds/built-in.a;  printf "drivers/leds/%s " led-core.o led-class.o led-triggers.o leds-gpio.o leds-netxbig.o leds-ns2.o leds-pwm.o leds-syscon.o trigger/built-in.a blink/built-in.a simple/built-in.a | xargs ar cDPrST drivers/leds/built-in.a

@@ -1,1 +1,0 @@
-savedcmd_sound/soc/fsl/snd-soc-fsl-asoc-card.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/fsl/snd-soc-fsl-asoc-card.o @sound/soc/fsl/snd-soc-fsl-asoc-card.mod 

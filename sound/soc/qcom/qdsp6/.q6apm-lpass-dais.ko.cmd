@@ -1,1 +1,0 @@
-savedcmd_sound/soc/qcom/qdsp6/q6apm-lpass-dais.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/qcom/qdsp6/q6apm-lpass-dais.ko sound/soc/qcom/qdsp6/q6apm-lpass-dais.o sound/soc/qcom/qdsp6/q6apm-lpass-dais.mod.o;  true

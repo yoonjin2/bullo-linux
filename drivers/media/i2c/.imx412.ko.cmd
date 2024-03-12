@@ -1,1 +1,0 @@
-savedcmd_drivers/media/i2c/imx412.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/imx412.ko drivers/media/i2c/imx412.o drivers/media/i2c/imx412.mod.o;  true

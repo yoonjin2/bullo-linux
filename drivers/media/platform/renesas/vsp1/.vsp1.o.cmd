@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/renesas/vsp1/vsp1.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/renesas/vsp1/vsp1.o @drivers/media/platform/renesas/vsp1/vsp1.mod 

@@ -1,1 +1,0 @@
-savedcmd_net/sched/sch_etf.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/sched/sch_etf.ko net/sched/sch_etf.o net/sched/sch_etf.mod.o;  true

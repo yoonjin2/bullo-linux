@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/host/ehci-brcm.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/ehci-brcm.ko drivers/usb/host/ehci-brcm.o drivers/usb/host/ehci-brcm.mod.o;  true

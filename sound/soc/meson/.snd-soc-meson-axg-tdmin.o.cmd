@@ -1,1 +1,0 @@
-savedcmd_sound/soc/meson/snd-soc-meson-axg-tdmin.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/meson/snd-soc-meson-axg-tdmin.o @sound/soc/meson/snd-soc-meson-axg-tdmin.mod 

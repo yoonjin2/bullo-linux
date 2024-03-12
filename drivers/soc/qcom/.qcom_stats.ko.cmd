@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/qcom/qcom_stats.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/soc/qcom/qcom_stats.ko drivers/soc/qcom/qcom_stats.o drivers/soc/qcom/qcom_stats.mod.o;  true

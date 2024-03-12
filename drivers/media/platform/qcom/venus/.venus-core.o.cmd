@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/qcom/venus/venus-core.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/qcom/venus/venus-core.o @drivers/media/platform/qcom/venus/venus-core.mod 

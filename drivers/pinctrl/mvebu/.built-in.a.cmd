@@ -1,1 +1,0 @@
-savedcmd_drivers/pinctrl/mvebu/built-in.a := rm -f drivers/pinctrl/mvebu/built-in.a;  printf "drivers/pinctrl/mvebu/%s " pinctrl-mvebu.o pinctrl-armada-ap806.o pinctrl-armada-cp110.o pinctrl-armada-37xx.o pinctrl-ac5.o | xargs ar cDPrST drivers/pinctrl/mvebu/built-in.a

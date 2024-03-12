@@ -1,1 +1,0 @@
-savedcmd_drivers/ptp/built-in.a := rm -f drivers/ptp/built-in.a;  printf "drivers/ptp/%s " ptp_clock.o ptp_chardev.o ptp_sysfs.o ptp_vclock.o ptp_dte.o ptp_kvm_arm.o ptp_kvm_common.o ptp_qoriq.o ptp_qoriq_debugfs.o | xargs ar cDPrST drivers/ptp/built-in.a

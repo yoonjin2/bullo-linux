@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/typec/tcpm/tcpci.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/tcpm/tcpci.ko drivers/usb/typec/tcpm/tcpci.o drivers/usb/typec/tcpm/tcpci.mod.o;  true

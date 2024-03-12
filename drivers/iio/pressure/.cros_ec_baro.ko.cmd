@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/pressure/cros_ec_baro.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/pressure/cros_ec_baro.ko drivers/iio/pressure/cros_ec_baro.o drivers/iio/pressure/cros_ec_baro.mod.o;  true

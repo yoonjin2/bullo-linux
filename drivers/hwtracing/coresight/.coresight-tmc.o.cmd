@@ -1,1 +1,0 @@
-savedcmd_drivers/hwtracing/coresight/coresight-tmc.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/hwtracing/coresight/coresight-tmc.o @drivers/hwtracing/coresight/coresight-tmc.mod 

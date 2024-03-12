@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/apple/built-in.a := rm -f drivers/soc/apple/built-in.a;  printf "drivers/soc/apple/%s " apple-pmgr-pwrstate.o apple-pmgr-misc.o mailbox.o rtkit.o rtkit-crashlog.o rtkit-helper.o sart.o dockchannel.o | xargs ar cDPrST drivers/soc/apple/built-in.a

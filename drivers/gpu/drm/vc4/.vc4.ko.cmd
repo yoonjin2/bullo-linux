@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/vc4/vc4.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/vc4/vc4.ko drivers/gpu/drm/vc4/vc4.o drivers/gpu/drm/vc4/vc4.mod.o;  true

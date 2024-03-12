@@ -136,8 +136,6 @@ ifeq ($(CONFIG_MEMORY_FAILURE),y)
 xfs-$(CONFIG_FS_DAX)		+= xfs_notify_failure.o
 endif
 
-xfs-$(CONFIG_XFS_DRAIN_INTENTS)	+= xfs_drain.o
-
 # online scrub/repair
 ifeq ($(CONFIG_XFS_ONLINE_SCRUB),y)
 
@@ -148,7 +146,6 @@ xfs-y				+= $(addprefix scrub/, \
 				   agheader.o \
 				   alloc.o \
 				   attr.o \
-				   bitmap.o \
 				   bmap.o \
 				   btree.o \
 				   common.o \
@@ -159,29 +156,20 @@ xfs-y				+= $(addprefix scrub/, \
 				   ialloc.o \
 				   inode.o \
 				   parent.o \
-				   readdir.o \
 				   refcount.o \
 				   rmap.o \
 				   scrub.o \
 				   symlink.o \
-				   xfarray.o \
-				   xfile.o \
 				   )
 
-xfs-$(CONFIG_XFS_ONLINE_SCRUB_STATS) += scrub/stats.o
-
-xfs-$(CONFIG_XFS_RT)		+= $(addprefix scrub/, \
-				   rtbitmap.o \
-				   rtsummary.o \
-				   )
-
+xfs-$(CONFIG_XFS_RT)		+= scrub/rtbitmap.o
 xfs-$(CONFIG_XFS_QUOTA)		+= scrub/quota.o
 
 # online repair
 ifeq ($(CONFIG_XFS_ONLINE_REPAIR),y)
 xfs-y				+= $(addprefix scrub/, \
 				   agheader_repair.o \
-				   reap.o \
+				   bitmap.o \
 				   repair.o \
 				   )
 endif

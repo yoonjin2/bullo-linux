@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/typec/ucsi/typec_ucsi.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/typec/ucsi/typec_ucsi.ko drivers/usb/typec/ucsi/typec_ucsi.o drivers/usb/typec/ucsi/typec_ucsi.mod.o;  true

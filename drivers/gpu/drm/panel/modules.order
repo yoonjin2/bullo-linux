@@ -1,9 +1,0 @@
-drivers/gpu/drm/panel/panel-boe-tv101wum-nl6.o
-drivers/gpu/drm/panel/panel-lvds.o
-drivers/gpu/drm/panel/panel-simple.o
-drivers/gpu/drm/panel/panel-edp.o
-drivers/gpu/drm/panel/panel-mantix-mlaf057we51.o
-drivers/gpu/drm/panel/panel-raydium-rm67191.o
-drivers/gpu/drm/panel/panel-sitronix-st7703.o
-drivers/gpu/drm/panel/panel-truly-nt35597.o
-drivers/gpu/drm/panel/panel-visionox-vtdr6130.o

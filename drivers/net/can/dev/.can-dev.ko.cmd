@@ -1,1 +1,0 @@
-savedcmd_drivers/net/can/dev/can-dev.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/can/dev/can-dev.ko drivers/net/can/dev/can-dev.o drivers/net/can/dev/can-dev.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/nvme/target/built-in.a := rm -f drivers/nvme/target/built-in.a;  printf "drivers/nvme/target/%s " core.o configfs.o admin-cmd.o fabrics-cmd.o discovery.o io-cmd-file.o io-cmd-bdev.o | xargs ar cDPrST drivers/nvme/target/built-in.a

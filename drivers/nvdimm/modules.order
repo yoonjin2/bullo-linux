@@ -1,4 +1,0 @@
-drivers/nvdimm/libnvdimm.o
-drivers/nvdimm/nd_pmem.o
-drivers/nvdimm/nd_btt.o
-drivers/nvdimm/of_pmem.o

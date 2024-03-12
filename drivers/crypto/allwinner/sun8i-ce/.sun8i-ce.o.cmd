@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/allwinner/sun8i-ce/sun8i-ce.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/crypto/allwinner/sun8i-ce/sun8i-ce.o @drivers/crypto/allwinner/sun8i-ce/sun8i-ce.mod 

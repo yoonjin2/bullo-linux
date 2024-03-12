@@ -1,4 +1,0 @@
-net/qrtr/qrtr.o
-net/qrtr/qrtr-smd.o
-net/qrtr/qrtr-tun.o
-net/qrtr/qrtr-mhi.o

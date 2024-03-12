@@ -1,1 +1,0 @@
-savedcmd_drivers/mtd/devices/built-in.a := rm -f drivers/mtd/devices/built-in.a;  printf "drivers/mtd/devices/%s " mtd_dataflash.o spear_smi.o sst25l.o | xargs ar cDPrST drivers/mtd/devices/built-in.a

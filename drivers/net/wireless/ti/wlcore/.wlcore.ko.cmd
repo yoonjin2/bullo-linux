@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/ti/wlcore/wlcore.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ti/wlcore/wlcore.ko drivers/net/wireless/ti/wlcore/wlcore.o drivers/net/wireless/ti/wlcore/wlcore.mod.o;  true

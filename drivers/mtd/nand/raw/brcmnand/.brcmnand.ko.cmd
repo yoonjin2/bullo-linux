@@ -1,1 +1,0 @@
-savedcmd_drivers/mtd/nand/raw/brcmnand/brcmnand.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mtd/nand/raw/brcmnand/brcmnand.ko drivers/mtd/nand/raw/brcmnand/brcmnand.o drivers/mtd/nand/raw/brcmnand/brcmnand.mod.o;  true

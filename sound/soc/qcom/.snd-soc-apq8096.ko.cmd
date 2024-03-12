@@ -1,1 +1,0 @@
-savedcmd_sound/soc/qcom/snd-soc-apq8096.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/qcom/snd-soc-apq8096.ko sound/soc/qcom/snd-soc-apq8096.o sound/soc/qcom/snd-soc-apq8096.mod.o;  true

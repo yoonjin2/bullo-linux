@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/apple/apple_dcp.mod := printf '%s\n'   dcp.o dcp_backlight.o iomfb.o parser.o iomfb_v12_3.o iomfb_v13_3.o | awk '!x[$$0]++ { print("drivers/gpu/drm/apple/"$$0) }' > drivers/gpu/drm/apple/apple_dcp.mod

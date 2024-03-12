@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/freescale/phy-fsl-imx8-mipi-dphy.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/phy/freescale/phy-fsl-imx8-mipi-dphy.ko drivers/phy/freescale/phy-fsl-imx8-mipi-dphy.o drivers/phy/freescale/phy-fsl-imx8-mipi-dphy.mod.o;  true

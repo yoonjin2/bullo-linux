@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/qualcomm/rmnet/rmnet.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/ethernet/qualcomm/rmnet/rmnet.o @drivers/net/ethernet/qualcomm/rmnet/rmnet.mod 

@@ -1,1 +1,0 @@
-savedcmd_drivers/firmware/efi/test/efi_test.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/firmware/efi/test/efi_test.ko drivers/firmware/efi/test/efi_test.o drivers/firmware/efi/test/efi_test.mod.o;  true

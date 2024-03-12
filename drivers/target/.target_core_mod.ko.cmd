@@ -1,1 +1,0 @@
-savedcmd_drivers/target/target_core_mod.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/target/target_core_mod.ko drivers/target/target_core_mod.o drivers/target/target_core_mod.mod.o;  true

@@ -1,2 +1,0 @@
-mt7986a-bananapi-bpi-r3-emmc.o: \
- arch/arm64/boot/dts/mediatek/mt7986a-bananapi-bpi-r3-emmc.dtso

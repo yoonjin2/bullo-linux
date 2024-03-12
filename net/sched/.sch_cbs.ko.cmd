@@ -1,1 +1,0 @@
-savedcmd_net/sched/sch_cbs.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/sched/sch_cbs.ko net/sched/sch_cbs.o net/sched/sch_cbs.mod.o;  true

@@ -1,2 +1,0 @@
-fsl-ls1028a-qds-13bb.o: \
- arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-13bb.dtso

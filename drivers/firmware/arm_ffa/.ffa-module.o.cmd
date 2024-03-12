@@ -1,1 +1,0 @@
-savedcmd_drivers/firmware/arm_ffa/ffa-module.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/firmware/arm_ffa/ffa-module.o @drivers/firmware/arm_ffa/ffa-module.mod 

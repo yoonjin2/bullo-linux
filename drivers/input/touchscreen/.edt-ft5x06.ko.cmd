@@ -1,1 +1,0 @@
-savedcmd_drivers/input/touchscreen/edt-ft5x06.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/edt-ft5x06.ko drivers/input/touchscreen/edt-ft5x06.o drivers/input/touchscreen/edt-ft5x06.mod.o;  true

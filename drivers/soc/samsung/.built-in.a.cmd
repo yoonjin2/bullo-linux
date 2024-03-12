@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/samsung/built-in.a := rm -f drivers/soc/samsung/built-in.a;  printf "drivers/soc/samsung/%s " exynos-chipid.o exynos-asv.o exynos-usi.o exynos-pmu.o pm_domains.o | xargs ar cDPrST drivers/soc/samsung/built-in.a

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/qcom/venus/venus-dec.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/qcom/venus/venus-dec.ko drivers/media/platform/qcom/venus/venus-dec.o drivers/media/platform/qcom/venus/venus-dec.mod.o;  true

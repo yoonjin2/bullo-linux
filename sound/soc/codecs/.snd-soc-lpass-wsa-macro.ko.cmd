@@ -1,1 +1,0 @@
-savedcmd_sound/soc/codecs/snd-soc-lpass-wsa-macro.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-lpass-wsa-macro.ko sound/soc/codecs/snd-soc-lpass-wsa-macro.o sound/soc/codecs/snd-soc-lpass-wsa-macro.mod.o;  true

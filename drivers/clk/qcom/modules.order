@@ -1,7 +1,0 @@
-drivers/clk/qcom/lpass-gfm-sm8250.o
-drivers/clk/qcom/dispcc-sc8280xp.o
-drivers/clk/qcom/camcc-sdm845.o
-drivers/clk/qcom/lpasscc-sdm845.o
-drivers/clk/qcom/camcc-sm8250.o
-drivers/clk/qcom/dispcc-sm8450.o
-drivers/clk/qcom/dispcc-sm8550.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/spi-hid/built-in.a := rm -f drivers/hid/spi-hid/built-in.a;  printf "drivers/hid/spi-hid/%s " spi-hid-apple-core.o spi-hid-apple-of.o | xargs ar cDPrST drivers/hid/spi-hid/built-in.a

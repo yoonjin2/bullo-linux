@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.ko drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.o drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.mod.o;  true

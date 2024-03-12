@@ -1,1 +1,0 @@
-savedcmd_drivers/interconnect/qcom/icc-smd-rpm.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/interconnect/qcom/icc-smd-rpm.o @drivers/interconnect/qcom/icc-smd-rpm.mod 

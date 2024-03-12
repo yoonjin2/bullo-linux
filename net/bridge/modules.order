@@ -1,2 +1,0 @@
-net/bridge/bridge.o
-net/bridge/br_netfilter.o

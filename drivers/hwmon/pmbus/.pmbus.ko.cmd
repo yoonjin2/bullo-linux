@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/pmbus/pmbus.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/pmbus.ko drivers/hwmon/pmbus/pmbus.o drivers/hwmon/pmbus/pmbus.mod.o;  true

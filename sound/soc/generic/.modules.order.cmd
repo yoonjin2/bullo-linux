@@ -1,1 +1,0 @@
-savedcmd_sound/soc/generic/modules.order := {   echo sound/soc/generic/snd-soc-simple-card.o;   echo sound/soc/generic/snd-soc-audio-graph-card.o;   echo sound/soc/generic/snd-soc-audio-graph-card2.o; :; } > sound/soc/generic/modules.order

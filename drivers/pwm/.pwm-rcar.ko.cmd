@@ -1,1 +1,0 @@
-savedcmd_drivers/pwm/pwm-rcar.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-rcar.ko drivers/pwm/pwm-rcar.o drivers/pwm/pwm-rcar.mod.o;  true

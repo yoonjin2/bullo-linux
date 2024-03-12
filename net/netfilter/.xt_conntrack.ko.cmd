@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/xt_conntrack.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_conntrack.ko net/netfilter/xt_conntrack.o net/netfilter/xt_conntrack.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_drivers/watchdog/qcom-wdt.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/qcom-wdt.ko drivers/watchdog/qcom-wdt.o drivers/watchdog/qcom-wdt.mod.o;  true

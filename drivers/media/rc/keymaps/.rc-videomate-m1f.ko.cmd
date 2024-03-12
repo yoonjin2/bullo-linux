@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-videomate-m1f.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-videomate-m1f.ko drivers/media/rc/keymaps/rc-videomate-m1f.o drivers/media/rc/keymaps/rc-videomate-m1f.mod.o;  true

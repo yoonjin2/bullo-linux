@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/mellanox/mlx4/modules.order := {   echo drivers/net/ethernet/mellanox/mlx4/mlx4_core.o;   echo drivers/net/ethernet/mellanox/mlx4/mlx4_en.o; :; } > drivers/net/ethernet/mellanox/mlx4/modules.order

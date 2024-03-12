@@ -1,1 +1,0 @@
-savedcmd_drivers/firmware/broadcom/built-in.a := rm -f drivers/firmware/broadcom/built-in.a;  printf "drivers/firmware/broadcom/%s " tee_bnxt_fw.o | xargs ar cDPrST drivers/firmware/broadcom/built-in.a

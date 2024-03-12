@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-technisat-ts35.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-technisat-ts35.ko drivers/media/rc/keymaps/rc-technisat-ts35.o drivers/media/rc/keymaps/rc-technisat-ts35.mod.o;  true

@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/kvm/hyp/built-in.a := rm -f arch/arm64/kvm/hyp/built-in.a;  printf "arch/arm64/kvm/hyp/%s " vhe/built-in.a nvhe/built-in.a pgtable.o | xargs ar cDPrST arch/arm64/kvm/hyp/built-in.a

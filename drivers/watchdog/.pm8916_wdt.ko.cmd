@@ -1,1 +1,0 @@
-savedcmd_drivers/watchdog/pm8916_wdt.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/pm8916_wdt.ko drivers/watchdog/pm8916_wdt.o drivers/watchdog/pm8916_wdt.mod.o;  true

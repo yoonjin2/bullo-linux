@@ -1,1 +1,0 @@
-savedcmd_drivers/firmware/iscsi_ibft.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/firmware/iscsi_ibft.ko drivers/firmware/iscsi_ibft.o drivers/firmware/iscsi_ibft.mod.o;  true

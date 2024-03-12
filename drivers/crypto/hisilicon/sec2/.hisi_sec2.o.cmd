@@ -1,1 +1,0 @@
-savedcmd_drivers/crypto/hisilicon/sec2/hisi_sec2.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/crypto/hisilicon/sec2/hisi_sec2.o @drivers/crypto/hisilicon/sec2/hisi_sec2.mod 

@@ -1,6 +1,0 @@
-drivers/power/reset/qcom-pon.o
-drivers/power/supply/sbs-battery.o
-drivers/power/supply/max17042_battery.o
-drivers/power/supply/mt6360_charger.o
-drivers/power/supply/bq25890_charger.o
-drivers/power/supply/bq25980_charger.o

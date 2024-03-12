@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/mellanox/mlx4/mlx4_core.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/ethernet/mellanox/mlx4/mlx4_core.o @drivers/net/ethernet/mellanox/mlx4/mlx4_core.mod 

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/usb/smsc75xx.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/smsc75xx.ko drivers/net/usb/smsc75xx.o drivers/net/usb/smsc75xx.mod.o;  true

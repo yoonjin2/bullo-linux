@@ -1,1 +1,0 @@
-savedcmd_drivers/char/hw_random/exynos-trng.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/char/hw_random/exynos-trng.ko drivers/char/hw_random/exynos-trng.o drivers/char/hw_random/exynos-trng.mod.o;  true

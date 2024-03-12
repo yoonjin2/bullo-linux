@@ -1,1 +1,0 @@
-savedcmd_drivers/net/phy/broadcom.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/broadcom.ko drivers/net/phy/broadcom.o drivers/net/phy/broadcom.mod.o;  true

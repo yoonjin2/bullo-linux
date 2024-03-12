@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/tegra/built-in.a := rm -f drivers/phy/tegra/built-in.a;  printf "drivers/phy/tegra/%s " xusb.o xusb-tegra124.o xusb-tegra210.o xusb-tegra186.o | xargs ar cDPrST drivers/phy/tegra/built-in.a

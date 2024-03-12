@@ -1,1 +1,0 @@
-savedcmd_sound/soc/qcom/snd-soc-lpass-cdc-dma.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/qcom/snd-soc-lpass-cdc-dma.o @sound/soc/qcom/snd-soc-lpass-cdc-dma.mod 

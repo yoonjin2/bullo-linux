@@ -1,1 +1,0 @@
-savedcmd_drivers/media/rc/keymaps/rc-tanix-tx3mini.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-tanix-tx3mini.ko drivers/media/rc/keymaps/rc-tanix-tx3mini.o drivers/media/rc/keymaps/rc-tanix-tx3mini.mod.o;  true

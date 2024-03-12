@@ -1,1 +1,0 @@
-savedcmd_drivers/interconnect/qcom/qnoc-msm8916.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o drivers/interconnect/qcom/qnoc-msm8916.o @drivers/interconnect/qcom/qnoc-msm8916.mod 

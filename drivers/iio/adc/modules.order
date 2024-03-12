@@ -1,8 +1,0 @@
-drivers/iio/adc/max9611.o
-drivers/iio/adc/mt6577_auxadc.o
-drivers/iio/adc/qcom-spmi-adc5.o
-drivers/iio/adc/qcom-vadc-common.o
-drivers/iio/adc/qcom-spmi-vadc.o
-drivers/iio/adc/rockchip_saradc.o
-drivers/iio/adc/rzg2l_adc.o
-drivers/iio/adc/ti-ads1015.o

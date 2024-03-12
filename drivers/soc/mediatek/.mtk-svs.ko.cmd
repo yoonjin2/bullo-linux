@@ -1,1 +1,0 @@
-savedcmd_drivers/soc/mediatek/mtk-svs.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/soc/mediatek/mtk-svs.ko drivers/soc/mediatek/mtk-svs.o drivers/soc/mediatek/mtk-svs.mod.o;  true

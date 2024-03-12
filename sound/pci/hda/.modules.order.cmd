@@ -1,1 +1,0 @@
-savedcmd_sound/pci/hda/modules.order := {   echo sound/pci/hda/snd-hda-codec.o;   echo sound/pci/hda/snd-hda-codec-si3054.o;   echo sound/pci/hda/snd-hda-codec-hdmi.o;   echo sound/pci/hda/snd-hda-intel.o;   echo sound/pci/hda/snd-hda-tegra.o; :; } > sound/pci/hda/modules.order

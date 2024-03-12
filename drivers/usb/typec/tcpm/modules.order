@@ -1,3 +1,0 @@
-drivers/usb/typec/tcpm/tcpm.o
-drivers/usb/typec/tcpm/fusb302.o
-drivers/usb/typec/tcpm/tcpci.o

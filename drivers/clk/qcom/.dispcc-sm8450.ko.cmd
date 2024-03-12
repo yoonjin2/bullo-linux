@@ -1,1 +1,0 @@
-savedcmd_drivers/clk/qcom/dispcc-sm8450.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/clk/qcom/dispcc-sm8450.ko drivers/clk/qcom/dispcc-sm8450.o drivers/clk/qcom/dispcc-sm8450.mod.o;  true

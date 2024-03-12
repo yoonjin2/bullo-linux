@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-hym8563.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-hym8563.ko drivers/rtc/rtc-hym8563.o drivers/rtc/rtc-hym8563.mod.o;  true

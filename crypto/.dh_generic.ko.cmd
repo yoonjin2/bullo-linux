@@ -1,1 +1,0 @@
-savedcmd_crypto/dh_generic.ko := ld -r -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/dh_generic.ko crypto/dh_generic.o crypto/dh_generic.mod.o;  true
