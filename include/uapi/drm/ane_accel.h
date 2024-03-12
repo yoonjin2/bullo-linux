@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-2.0-only OR MIT WITH Linux-syscall-notes
+// SPDX-License-Identifier: GPL-2.0-only OR MIT WITH Linux-syscall-note
 /* Copyright 2022 Eileen Yoon <eyn@gmx.com> */
 
 #ifndef __ANE_ACCEL_H__
