@@ -16,11 +16,11 @@ several of them using the Restructured Text markup notation.
 Please read the Documentation/process/changes.rst file, as it contains the
 requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
-####======불로 리눅스(不老)
+#### ======불로 리눅스(不老)
 
-###大哉, 不老厥腦厥心, 元來大韓.
-###Great Pleasure, without aging our brain and heart. Greater roots is from RoK(but originally from Zhou, China).
-###머리와 마음만은 늙지 않아 기쁘다.
+### 大哉, 不老厥腦厥心, 元來大韓.
+### Great Pleasure, without aging our brain and heart. Greater roots is from RoK(but originally from Zhou, China).
+### 머리와 마음만은 늙지 않아 기쁘다.
 
 This is Yinyang modified linux kernel for LG Gram, with Network-daemonized IChing. Be sure to check IChing in my repo lists.
 
