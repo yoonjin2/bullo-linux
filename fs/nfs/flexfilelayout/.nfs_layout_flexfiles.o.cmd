@@ -1,1 +1,0 @@
-savedcmd_fs/nfs/flexfilelayout/nfs_layout_flexfiles.o := ld -EL  -maarch64linux -z norelro -z noexecstack --no-warn-rwx-segments   -r -o fs/nfs/flexfilelayout/nfs_layout_flexfiles.o @fs/nfs/flexfilelayout/nfs_layout_flexfiles.mod 

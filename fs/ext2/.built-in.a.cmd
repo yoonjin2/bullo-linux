@@ -1,1 +1,0 @@
-savedcmd_fs/ext2/built-in.a := rm -f fs/ext2/built-in.a;  printf "fs/ext2/%s " balloc.o dir.o file.o ialloc.o inode.o ioctl.o namei.o super.o symlink.o | xargs ar cDPrST fs/ext2/built-in.a

@@ -1,8 +1,0 @@
-arch/arm64/crypto/sha512-ce.o
-arch/arm64/crypto/sha3-ce.o
-arch/arm64/crypto/ghash-ce.o
-arch/arm64/crypto/polyval-ce.o
-arch/arm64/crypto/crct10dif-ce.o
-arch/arm64/crypto/sha512-arm64.o
-arch/arm64/crypto/nhpoly1305-neon.o
-arch/arm64/crypto/aes-neon-bs.o

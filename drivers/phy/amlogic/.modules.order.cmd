@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/amlogic/modules.order := {   echo drivers/phy/amlogic/phy-meson8b-usb2.o;   echo drivers/phy/amlogic/phy-meson-gxl-usb2.o;   echo drivers/phy/amlogic/phy-meson-g12a-usb3-pcie.o;   echo drivers/phy/amlogic/phy-meson-axg-pcie.o;   echo drivers/phy/amlogic/phy-meson-axg-mipi-dphy.o; :; } > drivers/phy/amlogic/modules.order

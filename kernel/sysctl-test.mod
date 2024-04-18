@@ -1,1 +1,0 @@
-kernel/sysctl-test.o

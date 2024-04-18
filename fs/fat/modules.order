@@ -1,4 +1,0 @@
-fs/fat/fat.o
-fs/fat/vfat.o
-fs/fat/msdos.o
-fs/fat/fat_test.o

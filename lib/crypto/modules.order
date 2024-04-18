@@ -1,5 +1,0 @@
-lib/crypto/libarc4.o
-lib/crypto/libcurve25519-generic.o
-lib/crypto/libcurve25519.o
-lib/crypto/libdes.o
-lib/crypto/libpoly1305.o

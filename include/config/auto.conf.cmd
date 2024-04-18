@@ -1,8 +1,7 @@
 deps_config := \
 	Documentation/Kconfig \
 	lib/kunit/Kconfig \
-	drivers/hwtracing/coresight/Kconfig \
-	arch/arm64/Kconfig.debug \
+	arch/x86/Kconfig.debug \
 	samples/rust/Kconfig \
 	samples/Kconfig \
 	kernel/trace/rv/Kconfig \
@@ -463,6 +462,7 @@ deps_config := \
 	drivers/virt/vboxguest/Kconfig \
 	drivers/virt/Kconfig \
 	drivers/vlynq/Kconfig \
+	virt/lib/Kconfig \
 	drivers/vfio/cdx/Kconfig \
 	drivers/vfio/fsl-mc/Kconfig \
 	drivers/vfio/mdev/Kconfig \
@@ -1506,9 +1506,19 @@ deps_config := \
 	kernel/module/Kconfig \
 	scripts/gcc-plugins/Kconfig \
 	kernel/gcov/Kconfig \
+	arch/x86/Kconfig.assembler \
 	virt/kvm/Kconfig \
-	virt/lib/Kconfig \
-	arch/arm64/kvm/Kconfig \
+	arch/x86/kvm/Kconfig \
+	drivers/idle/Kconfig \
+	drivers/cpuidle/Kconfig.riscv \
+	drivers/cpuidle/Kconfig.powerpc \
+	drivers/cpuidle/Kconfig.mips \
+	drivers/cpuidle/Kconfig.arm \
+	drivers/cpuidle/Kconfig \
+	drivers/cpufreq/Kconfig.powerpc \
+	drivers/cpufreq/Kconfig.arm \
+	drivers/cpufreq/Kconfig.x86 \
+	drivers/cpufreq/Kconfig \
 	drivers/acpi/pmic/Kconfig \
 	drivers/acpi/arm64/Kconfig \
 	drivers/acpi/dptf/Kconfig \
@@ -1516,19 +1526,13 @@ deps_config := \
 	drivers/acpi/numa/Kconfig \
 	drivers/acpi/nfit/Kconfig \
 	drivers/acpi/Kconfig \
-	drivers/cpufreq/Kconfig.powerpc \
-	drivers/cpufreq/Kconfig.arm \
-	drivers/cpufreq/Kconfig.x86 \
-	drivers/cpufreq/Kconfig \
-	drivers/cpuidle/Kconfig.riscv \
-	drivers/cpuidle/Kconfig.powerpc \
-	drivers/cpuidle/Kconfig.mips \
-	drivers/cpuidle/Kconfig.arm \
-	drivers/cpuidle/Kconfig \
 	kernel/power/Kconfig \
+	kernel/livepatch/Kconfig \
 	kernel/Kconfig.hz \
-	arch/arm64/Kconfig.platforms \
-	arch/arm64/Kconfig \
+	arch/x86/events/Kconfig \
+	arch/x86/Kconfig.cpu \
+	arch/x86/xen/Kconfig \
+	arch/x86/Kconfig \
 	arch/Kconfig \
 	kernel/Kconfig.kexec \
 	usr/Kconfig \
@@ -1544,10 +1548,10 @@ deps_config := \
 
 include/config/auto.conf: $(deps_config)
 
-ifneq "$(ARCH)" "arm64"
+ifneq "$(ARCH)" "x86"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(KERNELVERSION)" "6.6.3-413.asahi.fc39.aarch64+16k-debug"
+ifneq "$(KERNELVERSION)" "6.3.0"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(CC)" "gcc"
@@ -1559,7 +1563,7 @@ endif
 ifneq "$(srctree)" "."
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CC_VERSION_TEXT)" "gcc (GCC) 13.2.1 20231205 (Red Hat 13.2.1-6)"
+ifneq "$(CC_VERSION_TEXT)" "gcc (GCC) 11.4.1 20230605 (Red Hat 11.4.1-2)"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(NM)" "nm"
@@ -1577,7 +1581,7 @@ endif
 ifneq "$(BINDGEN)" "bindgen"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(SRCARCH)" "arm64"
+ifneq "$(SRCARCH)" "x86"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(AR)" "ar"

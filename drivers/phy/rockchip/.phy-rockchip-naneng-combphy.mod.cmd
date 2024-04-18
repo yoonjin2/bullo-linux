@@ -1,1 +1,0 @@
-savedcmd_drivers/phy/rockchip/phy-rockchip-naneng-combphy.mod := printf '%s\n'   phy-rockchip-naneng-combphy.o | awk '!x[$$0]++ { print("drivers/phy/rockchip/"$$0) }' > drivers/phy/rockchip/phy-rockchip-naneng-combphy.mod

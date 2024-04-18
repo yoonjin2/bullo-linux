@@ -1,8 +1,0 @@
-kernel/locking/locktorture.o
-kernel/rcu/rcutorture.o
-kernel/time/time_test.o
-kernel/trace/ring_buffer_benchmark.o
-kernel/kheaders.o
-kernel/torture.o
-kernel/resource_kunit.o
-kernel/sysctl-test.o
