@@ -1,4 +1,4 @@
-###Linux kernel
+Bullo-Linux kernel by @yoonjin2.
 ============
 
 There are several guides for kernel developers and users. These guides can
